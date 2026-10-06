@@ -94,10 +94,41 @@ async function download(url, n) {
   return name;
 }
 
+// "steam:<name or appid>" expands to the game's official key art and screenshots from its Steam store page
+async function expandImages(list) {
+  const out = [];
+  for (const item of list) {
+    if (!item.startsWith('steam:')) {
+      out.push(item);
+      continue;
+    }
+    try {
+      const term = item.slice(6).trim();
+      let appid = /^\d+$/.test(term) ? term : '';
+      if (!appid) {
+        const sr = await (await fetch(`https://store.steampowered.com/api/storesearch/?term=${encodeURIComponent(term)}&l=english&cc=us`, {headers: {'User-Agent': UA}})).json();
+        appid = String(sr.items?.[0]?.id || '');
+        console.log(`Steam search "${term}" -> ${sr.items?.[0]?.name || 'nothing'} (${appid})`);
+      }
+      const d = await (await fetch(`https://store.steampowered.com/api/appdetails?appids=${appid}&l=english`, {headers: {'User-Agent': UA}})).json();
+      const data = d[appid]?.data;
+      if (!data) throw new Error('no store data');
+      const found = [];
+      if (data.background_raw) found.push(data.background_raw.split('?')[0]);
+      for (const sh of data.screenshots || []) found.push(sh.path_full.split('?')[0]);
+      console.log(`Steam "${data.name}": ${found.length} images found`);
+      out.push(...found.slice(0, 4));
+    } catch (e) {
+      console.warn(`Steam lookup failed for "${item}": ${e.message}`);
+    }
+  }
+  return out;
+}
+
 async function fetchImages() {
   const out = [];
   let n = 0;
-  for (const img of story.images || []) {
+  for (const img of await expandImages(story.images || [])) {
     n++;
     if (/^https?:\/\//i.test(img)) {
       try {
