@@ -13,6 +13,10 @@ for pair in "$@"; do
 done
 [ "$i" -gt 0 ] || { echo "Nothing to publish"; exit 0; }
 
+# Clear untracked files so switching branches cannot collide with files we just copied aside
+git reset -q --hard
+git clean -fdq
+
 git config user.name "render-bot"
 git config user.email "render-bot@users.noreply.github.com"
 
