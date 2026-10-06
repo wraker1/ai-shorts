@@ -1,32 +1,34 @@
-# AI gaming news shorts
+# AI gaming news shorts (fully online)
 
-Pipeline: Reddit scan -> script -> ElevenLabs voice -> Remotion render (9:16, Anton captions, slow zoom images).
+Everything runs on GitHub. No local computer needed.
 
-## One time setup (Windows terminal, in this folder)
-    npm install
-
-Your ElevenLabs key is already in `.env` (git ignored). Change the voice with ELEVENLABS_VOICE_ID.
-
-## Test render (no images, placeholder gradients)
-    npm run make -- stories/template-test.json
-Output: out/template-test.mp4
-
-## Daily
-    npm run news                 -> out/news-DATE.md with today's top posts
-    (write a story file in stories/, e.g. copy template-test.json)
-    npm run make -- stories/<name>.json
+## How it works
+1. **News scan** (`Gaming news scan` workflow, runs daily at 04:00 UTC or by hand): Reddit (what GitHub is allowed to read)
+   plus gaming site feeds. Result: `news/YYYY-MM-DD.md` on the `renders` branch, with article facts and image links.
+2. **Story file**: a small JSON in `stories/` (headline, script of about 65 to 80 words, images, optional voice).
+3. **Render** (`Render short` workflow, starts automatically when a story file is committed): ElevenLabs voice, Remotion video.
+   Result: `videos/<id>.mp4` on the `renders` branch, previews of the images in `assets/<id>/`, the log in `logs/render.log`.
 
 ## Story file
-- id: folder name for assets
-- headline: top bar text
-- source: small line under the headline
-- script: ~75 words for 30 seconds
-- images: URLs, or file names placed in public/stories/<id>/
-- music (optional): path inside public, e.g. "music/track.mp3"
+    {
+      "id": "unique-name",
+      "headline": "Text at the top of the video",
+      "source": "Source: IGN",
+      "script": "About 65 to 80 words.",
+      "voice": "optional ElevenLabs voice id (see voices/voices.md on the renders branch)",
+      "images": [
+        "https://direct-image-url.jpg",
+        "steam:Game Name"
+      ]
+    }
+- `steam:Game Name` pulls the official key art and screenshots from the game's Steam page.
+- Voice speed: Daniel about 2.2 words per second, Liam about 2.65. Aim for 30 seconds.
+- Default voice for all stories: set `voice` in `config.json`.
 
-Preview/tweak the design live: `npm run studio`
+## Workflows
+- `Gaming news scan`, `List ElevenLabs voices`, `Render short` (pick a story file by hand if needed).
+- Needs the repo secret `ELEVENLABS_API_KEY`.
 
-## Cloud rendering (GitHub Actions)
-Commit a story file to `stories/` and the "Render short" workflow makes the voice and renders the video.
-The mp4 is attached to the workflow run as the `shorts` artifact. Requires the repo secret `ELEVENLABS_API_KEY`
-(optional repo variable `ELEVENLABS_VOICE_ID`). You can also start it by hand from the Actions tab.
+## Local use (optional)
+    npm install
+    npm run make -- stories/<name>.json
