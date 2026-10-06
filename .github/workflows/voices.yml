@@ -6,10 +6,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: renders-branch
-  cancel-in-progress: false
-
 jobs:
   voices:
     runs-on: ubuntu-22.04
