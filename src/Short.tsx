@@ -2,6 +2,8 @@ import React from 'react';
 import {
   AbsoluteFill,
   Audio,
+  continueRender,
+  delayRender,
   Img,
   Sequence,
   interpolate,
@@ -61,22 +63,56 @@ const buildChunks = (words: Word[], totalSec: number): Chunk[] => {
 
 const Background: React.FC<{src: string; index: number; length: number}> = ({src, index, length}) => {
   const frame = useCurrentFrame();
+  const [dim, setDim] = React.useState<{w: number; h: number} | null>(null);
+  const [handle] = React.useState(() => delayRender(`load ${src}`));
+  React.useEffect(() => {
+    const im = new window.Image();
+    im.onload = () => {
+      setDim({w: im.naturalWidth, h: im.naturalHeight});
+      continueRender(handle);
+    };
+    im.onerror = () => continueRender(handle);
+    im.src = staticFile(src);
+  }, [src, handle]);
+
   const progress = interpolate(frame, [0, length], [0, 1], {extrapolateRight: 'clamp'});
-  const scale = 1.05 + progress * 0.12; // slow zoom in
   const dir = index % 2 === 0 ? 1 : -1;
-  const x = (progress - 0.5) * 40 * dir; // slight drift
-  const fade = 1; // hard cut, the cut itself is timed to the end of a spoken word
+  const aspect = dim ? dim.w / dim.h : 1.78;
+  // Wide pictures are shown whole (over a blurred copy of themselves) instead of being cropped to a thin slice.
+  const showWhole = aspect > 0.85;
+
+  if (!showWhole) {
+    const scale = 1.05 + progress * 0.12;
+    const x = (progress - 0.5) * 40 * dir;
+    return (
+      <AbsoluteFill style={{overflow: 'hidden', backgroundColor: '#000'}}>
+        <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `translateX(${x}px) scale(${scale})`}} />
+      </AbsoluteFill>
+    );
+  }
+
+  const imgW = 1080;
+  const imgH = imgW / aspect;
+  const scale = 1 + progress * 0.08;
   return (
-    <AbsoluteFill style={{opacity: fade, overflow: 'hidden', backgroundColor: '#000'}}>
+    <AbsoluteFill style={{overflow: 'hidden', backgroundColor: '#000'}}>
       <Img
         src={staticFile(src)}
-        style={{
-          width: '100%',
-          height: '100%',
-          objectFit: 'cover',
-          transform: `translateX(${x}px) scale(${scale})`,
-        }}
+        style={{width: '100%', height: '100%', objectFit: 'cover', filter: 'blur(36px) brightness(0.55)', transform: 'scale(1.25)'}}
       />
+      <div
+        style={{
+          position: 'absolute',
+          left: 0,
+          width: imgW,
+          top: 1920 * 0.44 - imgH / 2,
+          height: imgH,
+          overflow: 'hidden',
+          boxShadow: '0 20px 60px rgba(0,0,0,0.6)',
+        }}
+      >
+        <Img src={staticFile(src)} style={{width: '100%', height: '100%', objectFit: 'cover', transform: `scale(${scale})`}} />
+      </div>
     </AbsoluteFill>
   );
 };
