@@ -8,8 +8,12 @@ on:
         required: true
         default: 'stories/template-test.json'
   push:
+    branches: [main]
     paths:
       - 'stories/*.json'
+
+permissions:
+  contents: write
 
 jobs:
   render:
@@ -50,3 +54,20 @@ jobs:
         with:
           name: shorts
           path: out/*.mp4
+
+      - name: Save mp4 files to the renders branch
+        run: |
+          mkdir -p /tmp/r && cp out/*.mp4 /tmp/r/
+          git config user.name "render-bot"
+          git config user.email "render-bot@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin renders >/dev/null 2>&1; then
+            git fetch origin renders
+            git checkout -B renders origin/renders
+          else
+            git checkout --orphan renders
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+          mkdir -p videos && cp /tmp/r/*.mp4 videos/
+          git add videos
+          git commit -m "Render ${{ github.run_number }}"
+          git push origin renders
