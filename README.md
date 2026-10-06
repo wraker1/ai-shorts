@@ -25,3 +25,8 @@ Output: out/template-test.mp4
 - music (optional): path inside public, e.g. "music/track.mp3"
 
 Preview/tweak the design live: `npm run studio`
+
+## Cloud rendering (GitHub Actions)
+Commit a story file to `stories/` and the "Render short" workflow makes the voice and renders the video.
+The mp4 is attached to the workflow run as the `shorts` artifact. Requires the repo secret `ELEVENLABS_API_KEY`
+(optional repo variable `ELEVENLABS_VOICE_ID`). You can also start it by hand from the Actions tab.
