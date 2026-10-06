@@ -11,6 +11,7 @@ const defaultProps: ShortProps = {
   words: [],
   durationSec: 10,
   images: [],
+  shots: [],
   music: '',
 };
 

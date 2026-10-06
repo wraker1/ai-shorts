@@ -21,6 +21,7 @@ if (!storyArg) {
   process.exit(1);
 }
 const story = JSON.parse(fs.readFileSync(path.resolve(root, storyArg), 'utf8'));
+if (Array.isArray(story.beats)) story.script = story.beats.map((b) => b.text.trim()).join(' ');
 const id = story.id;
 const pubDir = path.join(root, 'public', 'stories', id);
 fs.mkdirSync(pubDir, {recursive: true});
@@ -156,7 +157,54 @@ const last = words[words.length - 1];
 const durationSec = Math.ceil((last.end + 0.6) * 10) / 10;
 if (durationSec > 33) console.warn(`WARNING: ${durationSec}s is over the 30s target. Shorten the script.`);
 
-const images = await fetchImages();
+async function buildShots() {
+  // Each beat is a piece of the script with the image that should be on screen while it is spoken.
+  // The image changes right after the last word of the previous beat has ended.
+  const plan = [];
+  let idx = 0;
+  for (const b of story.beats) {
+    const n = b.text.trim().split(/\s+/).length;
+    const startIdx = idx;
+    idx += n;
+    const endIdx = idx;
+    const t0 = startIdx === 0 ? 0 : words[startIdx - 1].end + 0.04;
+    const t1 = endIdx >= words.length ? durationSec : words[endIdx - 1].end + 0.04;
+    const srcs = (Array.isArray(b.images) ? b.images : [b.image]).filter(Boolean);
+    if (!srcs.length) srcs.push('');
+    srcs.forEach((u, k) => plan.push({url: u, start: t0 + ((t1 - t0) * k) / srcs.length}));
+  }
+  if (idx !== words.length) console.warn(`WARNING: beats cover ${idx} words but the voice has ${words.length}.`);
+  const cache = new Map();
+  let n = 0;
+  let last = '';
+  const shots = [];
+  for (const item of plan) {
+    let src = '';
+    if (item.url) {
+      if (!cache.has(item.url)) {
+        n++;
+        try {
+          const name = await download(item.url, n);
+          console.log(`Image ${n} OK: ${item.url}`);
+          cache.set(item.url, `stories/${id}/${name}`);
+        } catch (e) {
+          console.warn(`Image ${n} FAILED (${e.message}): ${item.url}`);
+          cache.set(item.url, '');
+        }
+      }
+      src = cache.get(item.url);
+    }
+    if (!src) src = last; // keep the previous picture on screen rather than a blank
+    if (src) last = src;
+    shots.push({src, start: Number(item.start.toFixed(3))});
+  }
+  const firstGood = shots.find((x) => x.src)?.src || '';
+  for (const sh of shots) if (!sh.src) sh.src = firstGood;
+  return shots;
+}
+
+const shots = Array.isArray(story.beats) ? await buildShots() : [];
+const images = Array.isArray(story.beats) ? [] : await fetchImages();
 const props = {
   headline: story.headline,
   source: story.source || '',
@@ -164,6 +212,7 @@ const props = {
   words,
   durationSec,
   images,
+  shots,
   music: story.music || '',
 };
 const propsPath = path.join(root, 'out', `${id}${suffix}.props.json`);

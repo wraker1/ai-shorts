@@ -15,13 +15,16 @@ const {fontFamily: ANTON} = loadFont();
 
 export type Word = {text: string; start: number; end: number};
 
+export type Shot = {src: string; start: number};
+
 export type ShortProps = {
   headline: string;
   source: string;
   audio: string; // path inside /public, e.g. stories/my-story/voice.mp3
   words: Word[];
   durationSec: number;
-  images: string[]; // paths inside /public
+  images: string[]; // paths inside /public (used when no shots are given)
+  shots: Shot[]; // image changes with start time in seconds, cut at word ends
   music: string; // optional path inside /public, empty = no music
 };
 
@@ -59,10 +62,10 @@ const buildChunks = (words: Word[], totalSec: number): Chunk[] => {
 const Background: React.FC<{src: string; index: number; length: number}> = ({src, index, length}) => {
   const frame = useCurrentFrame();
   const progress = interpolate(frame, [0, length], [0, 1], {extrapolateRight: 'clamp'});
-  const scale = 1.04 + progress * 0.14; // slow zoom in
+  const scale = 1.05 + progress * 0.12; // slow zoom in
   const dir = index % 2 === 0 ? 1 : -1;
   const x = (progress - 0.5) * 40 * dir; // slight drift
-  const fade = interpolate(frame, [0, 6], [0, 1], {extrapolateRight: 'clamp'});
+  const fade = 1; // hard cut, the cut itself is timed to the end of a spoken word
   return (
     <AbsoluteFill style={{opacity: fade, overflow: 'hidden', backgroundColor: '#000'}}>
       <Img
@@ -165,20 +168,24 @@ const Headline: React.FC<{headline: string}> = ({headline}) => {
   );
 };
 
-export const Short: React.FC<ShortProps> = ({headline, source, audio, words, durationSec, images, music}) => {
+export const Short: React.FC<ShortProps> = ({headline, audio, words, durationSec, images, shots, music}) => {
   const {fps, durationInFrames} = useVideoConfig();
   const chunks = React.useMemo(() => buildChunks(words, durationSec), [words, durationSec]);
-  const count = Math.max(1, images.length);
-  const seg = Math.ceil(durationInFrames / count);
+  const timeline: Shot[] = React.useMemo(() => {
+    if (shots && shots.length) return shots;
+    const n = Math.max(1, images.length);
+    return Array.from({length: n}).map((_, i) => ({src: images[i] || '', start: (i * durationSec) / n}));
+  }, [shots, images, durationSec]);
 
   return (
     <AbsoluteFill style={{backgroundColor: '#000'}}>
-      {Array.from({length: count}).map((_, i) => {
-        const from = i * seg;
-        const dur = i === count - 1 ? durationInFrames - from : seg;
+      {timeline.map((sh, i) => {
+        const from = Math.round(sh.start * fps);
+        const to = i === timeline.length - 1 ? durationInFrames : Math.round(timeline[i + 1].start * fps);
+        const dur = Math.max(1, to - from);
         return (
-          <Sequence key={i} from={from} durationInFrames={Math.max(1, dur)}>
-            {images[i] ? <Background src={images[i]} index={i} length={dur} /> : <Placeholder index={i} length={dur} />}
+          <Sequence key={i} from={from} durationInFrames={dur}>
+            {sh.src ? <Background src={sh.src} index={i} length={dur} /> : <Placeholder index={i} length={dur} />}
           </Sequence>
         );
       })}

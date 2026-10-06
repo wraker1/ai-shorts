@@ -1,0 +1,38 @@
+name: Find images
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Name for this search (folder name)'
+        required: true
+      queries:
+        description: 'One search per line'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: renders-branch
+  cancel-in-progress: false
+
+jobs:
+  find:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Search and download candidates
+        env:
+          QUERIES: ${{ inputs.queries }}
+          NAME: ${{ inputs.name }}
+        run: node scripts/findimages.mjs
+      - name: Save to the renders branch
+        if: always()
+        env:
+          NAME: ${{ inputs.name }}
+        run: MSG="Image candidates $NAME" scripts/publish.sh candidates=candidates

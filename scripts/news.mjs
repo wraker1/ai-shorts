@@ -126,7 +126,7 @@ async function redditRss(sub) {
     xml = await (await get(url, 'application/atom+xml')).text();
   } catch (e) {
     if (!/429/.test(e.message)) throw e;
-    await sleep(12000);
+    await sleep(20000);
     xml = await (await get(url, 'application/atom+xml')).text();
   }
   const entries = xml.split('<entry>').slice(1);
@@ -140,10 +140,20 @@ async function redditRss(sub) {
   });
 }
 
+// Public archive of Reddit posts (used when Reddit itself blocks GitHub's servers)
+async function arcticShift(sub) {
+  const after = new Date(Date.now() - 36 * 3600 * 1000).toISOString();
+  const r = await get(`https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=${sub}&after=${after}&limit=100&sort=desc`, 'application/json', 25000);
+  const j = await r.json();
+  const posts = j.data || [];
+  if (!posts.length) throw new Error('no posts');
+  return posts;
+}
+
 const items = [];
 
 for (const sub of SUBS) {
-  await sleep(3000);
+  await sleep(8000);
   let posts;
   try {
     posts = await redditJson(sub);
@@ -153,8 +163,13 @@ for (const sub of SUBS) {
       posts = await redditRss(sub);
       note(`reddit r/${sub}`, true, `rss ${posts.length} posts (json failed: ${e1.message})`);
     } catch (e2) {
-      note(`reddit r/${sub}`, false, `json: ${e1.message}, rss: ${e2.message}`);
-      continue;
+      try {
+        posts = await arcticShift(sub);
+        note(`reddit r/${sub}`, true, `archive ${posts.length} posts (json: ${e1.message}, rss: ${e2.message})`);
+      } catch (e3) {
+        note(`reddit r/${sub}`, false, `json: ${e1.message}, rss: ${e2.message}, archive: ${e3.message}`);
+        continue;
+      }
     }
   }
   for (const p of posts) {
