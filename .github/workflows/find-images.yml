@@ -26,6 +26,7 @@ jobs:
         env:
           QUERIES: ${{ inputs.queries }}
           NAME: ${{ inputs.name }}
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
         run: node scripts/findimages.mjs
       - name: Save to the renders branch
         if: always()

@@ -82,16 +82,48 @@ async function pageImages(url) {
   return out;
 }
 
+async function serper(q) {
+  const r = await fetch('https://google.serper.dev/images', {
+    method: 'POST',
+    headers: {'X-API-KEY': process.env.SERPER_API_KEY, 'Content-Type': 'application/json'},
+    body: JSON.stringify({q, num: 20, gl: 'us'}),
+    signal: AbortSignal.timeout(20000),
+  });
+  if (!r.ok) throw new Error(`serper HTTP ${r.status}`);
+  const j = await r.json();
+  return (j.images || []).map((x) => ({url: x.imageUrl, page: x.link, title: x.title}));
+}
+
+const firstUrls = new Map(); // detect a search engine that ignores the query (same first result for different searches)
+async function guarded(engine, q, fn) {
+  const res = await fn(q);
+  const first = res[0]?.url;
+  if (first) {
+    if (firstUrls.has(`${engine}|${first}`) && firstUrls.get(`${engine}|${first}`) !== q) throw new Error(`${engine} seems to ignore the query`);
+    firstUrls.set(`${engine}|${first}`, q);
+  }
+  return res;
+}
+
 async function search(q) {
   if (q.startsWith('steam:')) return steam(q.slice(6).trim());
   if (q.startsWith('wiki:')) return wiki(q.slice(5).trim());
   if (q.startsWith('page:')) return pageImages(q.slice(5).trim());
-  try {
-    return await bing(q);
-  } catch (e1) {
-    console.warn(`  ${e1.message}, trying DuckDuckGo`);
-    return await ddg(q);
+  const engines = [];
+  if (process.env.SERPER_API_KEY) engines.push(['serper', serper]);
+  engines.push(['ddg', ddg], ['bing', bing]);
+  let last;
+  for (const [name, fn] of engines) {
+    try {
+      const res = await guarded(name, q, fn);
+      console.log(`  via ${name}: ${res.length} results`);
+      return res;
+    } catch (e) {
+      console.warn(`  ${name} failed: ${e.message}`);
+      last = e;
+    }
   }
+  throw last;
 }
 
 const EXT = {'image/jpeg': '.jpg', 'image/png': '.png', 'image/webp': '.webp'};
