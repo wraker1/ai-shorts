@@ -64,9 +64,19 @@ async function pageInfo(url) {
       '';
     const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map((m) => stripTags(m[1])).filter((t) => t.length > 70);
     const text = paras.join(' ').slice(0, 1500);
-    return {image: image ? new URL(decode(image), url).href : '', desc: decode(desc), text};
+    const extra = [];
+    for (const m of html.matchAll(/<img[^>]+(?:data-src|src)=["']([^"']+)["']/gi)) {
+      const u = decode(m[1]);
+      if (!/\.(jpe?g|png|webp)(\?|$)/i.test(u) && !/format=(jpg|webp|png)/i.test(u)) continue;
+      if (/logo|icon|avatar|sprite|pixel|badge|author|placeholder|emoji|\/ads?[\/_.-]/i.test(u)) continue;
+      try {
+        const abs = new URL(u, url).href;
+        if (!extra.includes(abs)) extra.push(abs);
+      } catch {}
+    }
+    return {image: image ? new URL(decode(image), url).href : '', desc: decode(desc), text, extra: extra.slice(0, 6)};
   } catch {
-    return {image: '', desc: '', text: ''};
+    return {image: '', desc: '', text: '', extra: []};
   }
 }
 
@@ -228,6 +238,7 @@ for (let k = 0; k < pickTop.length; k += 6) {
         it.images.unshift(info.image);
         filled++;
       }
+      for (const u of info.extra) if (!it.images.includes(u)) it.images.push(u);
       it.summary = (info.desc + ' ' + info.text).trim().slice(0, 1600);
     }),
   );
