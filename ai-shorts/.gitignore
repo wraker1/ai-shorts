@@ -1,0 +1,6 @@
+node_modules
+out
+.env
+public/stories
+stories/*.words.json
+stories/*.mp3

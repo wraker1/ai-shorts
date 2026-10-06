@@ -1,0 +1,52 @@
+name: Render short
+
+on:
+  workflow_dispatch:
+    inputs:
+      story:
+        description: 'Story file to render'
+        required: true
+        default: 'stories/template-test.json'
+  push:
+    paths:
+      - 'stories/*.json'
+
+jobs:
+  render:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Chrome dependencies for Remotion
+        run: sudo apt-get update && sudo apt-get install -y libnss3 libdbus-1-3 libatk1.0-0 libasound2 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libgbm-dev libcups2 libatk-bridge2.0-0
+
+      - run: npm install
+
+      - name: Pick story files
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "files=${{ inputs.story }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "files=$(git diff --name-only HEAD~1 HEAD -- 'stories/*.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Render
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+        run: |
+          for f in ${{ steps.pick.outputs.files }}; do
+            node scripts/make.mjs "$f"
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shorts
+          path: out/*.mp4
