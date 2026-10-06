@@ -1,0 +1,28 @@
+name: List ElevenLabs voices
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: renders-branch
+  cancel-in-progress: false
+
+jobs:
+  voices:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: List voices
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: node scripts/voices.mjs
+      - name: Save to the renders branch
+        run: |
+          mkdir -p /tmp/voices && cp out/voices.md /tmp/voices/
+          MSG="Voice list" scripts/publish.sh /tmp/voices=voices

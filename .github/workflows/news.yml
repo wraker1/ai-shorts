@@ -1,0 +1,28 @@
+name: Gaming news scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: renders-branch
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Scan Reddit and gaming sites
+        run: node scripts/news.mjs
+      - name: Save to the renders branch
+        if: always()
+        run: MSG="News scan $(date -u +%F)" scripts/publish.sh news=news

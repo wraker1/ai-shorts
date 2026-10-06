@@ -15,9 +15,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: renders-branch
+  cancel-in-progress: false
+
 jobs:
   render:
     runs-on: ubuntu-22.04
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,36 +43,35 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             echo "files=${{ inputs.story }}" >> "$GITHUB_OUTPUT"
           else
-            echo "files=$(git diff --name-only HEAD~1 HEAD -- 'stories/*.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
+            echo "files=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- 'stories/*.json' | tr '\n' ' ')" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Render
+        shell: bash
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
         run: |
+          mkdir -p out
           for f in ${{ steps.pick.outputs.files }}; do
-            node scripts/make.mjs "$f"
+            node scripts/make.mjs "$f" 2>&1 | tee -a out/render.log
           done
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: shorts
-          path: out/*.mp4
-
-      - name: Save mp4 files to the renders branch
+      - name: Make small previews of the images that were used
+        if: always()
         run: |
-          mkdir -p /tmp/r && cp out/*.mp4 /tmp/r/
-          git config user.name "render-bot"
-          git config user.email "render-bot@users.noreply.github.com"
-          if git ls-remote --exit-code --heads origin renders >/dev/null 2>&1; then
-            git fetch origin renders
-            git checkout -B renders origin/renders
-          else
-            git checkout --orphan renders
-            git rm -rf . >/dev/null 2>&1 || true
-          fi
-          mkdir -p videos && cp /tmp/r/*.mp4 videos/
-          git add videos
-          git commit -m "Render ${{ github.run_number }}"
-          git push origin renders
+          mkdir -p /tmp/assets
+          for d in public/stories/*/; do
+            [ -d "$d" ] || continue
+            id="$(basename "$d")"; mkdir -p "/tmp/assets/$id"
+            for f in "$d"img*; do
+              [ -f "$f" ] && convert "$f[0]" -resize 540x540 -quality 70 "/tmp/assets/$id/$(basename "${f%.*}").jpg" || true
+            done
+          done
+          mkdir -p /tmp/logs && cp out/render.log /tmp/logs/ 2>/dev/null || true
+
+      - name: Save results to the renders branch
+        if: always()
+        run: |
+          mkdir -p /tmp/videos && cp out/*.mp4 /tmp/videos/ 2>/dev/null || true
+          MSG="Render ${{ github.run_number }}" scripts/publish.sh /tmp/videos=videos /tmp/assets=assets /tmp/logs=logs

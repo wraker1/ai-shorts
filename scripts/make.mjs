@@ -38,8 +38,10 @@ async function makeVoice() {
     return JSON.parse(fs.readFileSync(wordsPath, 'utf8'));
   }
   const key = process.env.ELEVENLABS_API_KEY;
-  const voice = voiceOverride || process.env.ELEVENLABS_VOICE_ID || 'onwK4e9ZLuTAKqWW03F9';
-  if (!key) throw new Error('ELEVENLABS_API_KEY missing in .env');
+  let configVoice = '';
+  try { configVoice = JSON.parse(fs.readFileSync(path.join(root, 'config.json'), 'utf8')).voice || ''; } catch {}
+  const voice = voiceOverride || story.voice || configVoice || process.env.ELEVENLABS_VOICE_ID || 'onwK4e9ZLuTAKqWW03F9';
+  if (!key) throw new Error('ELEVENLABS_API_KEY missing (set it in .env or as a GitHub secret)');
   console.log('Generating voice with ElevenLabs...');
   const res = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voice}/with-timestamps?output_format=mp3_44100_128`, {
     method: 'POST',
@@ -71,28 +73,50 @@ async function makeVoice() {
   return words;
 }
 
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
+const EXT = {'image/jpeg': '.jpg', 'image/png': '.png', 'image/webp': '.webp'};
+
+async function download(url, n) {
+  const existing = fs.readdirSync(pubDir).find((f) => f.startsWith(`img${n}.`));
+  if (existing) return existing;
+  const r = await fetch(url, {
+    headers: {'User-Agent': UA, Accept: 'image/webp,image/jpeg,image/png,image/*;q=0.8', Referer: new URL(url).origin + '/'},
+    signal: AbortSignal.timeout(25000),
+  });
+  if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  const type = (r.headers.get('content-type') || '').split(';')[0].trim().toLowerCase();
+  const ext = EXT[type];
+  if (!ext) throw new Error(`unsupported type ${type || 'unknown'}`);
+  const buf = Buffer.from(await r.arrayBuffer());
+  if (buf.length < 8000) throw new Error('image too small (probably a placeholder or block page)');
+  const name = `img${n}${ext}`;
+  fs.writeFileSync(path.join(pubDir, name), buf);
+  return name;
+}
+
 async function fetchImages() {
   const out = [];
   let n = 0;
   for (const img of story.images || []) {
     n++;
     if (/^https?:\/\//i.test(img)) {
-      const ext = (new URL(img).pathname.match(/\.(png|jpe?g|webp)$/i)?.[0] || '.jpg').toLowerCase();
-      const name = `img${n}${ext}`;
-      const dest = path.join(pubDir, name);
-      if (!fs.existsSync(dest)) {
-        console.log(`Downloading image ${n}...`);
-        const r = await fetch(img);
-        if (!r.ok) throw new Error(`Image ${n} failed: ${r.status}`);
-        fs.writeFileSync(dest, Buffer.from(await r.arrayBuffer()));
+      try {
+        const name = await download(img, n);
+        console.log(`Image ${n} OK: ${img}`);
+        out.push(`stories/${id}/${name}`);
+      } catch (e) {
+        console.warn(`Image ${n} FAILED (${e.message}): ${img}`);
       }
-      out.push(`stories/${id}/${name}`);
     } else {
       // plain file name: expected in public/stories/<id>/
-      if (!fs.existsSync(path.join(pubDir, img))) throw new Error(`Missing image file public/stories/${id}/${img}`);
+      if (!fs.existsSync(path.join(pubDir, img))) {
+        console.warn(`Image ${n} missing file public/stories/${id}/${img}`);
+        continue;
+      }
       out.push(`stories/${id}/${img}`);
     }
   }
+  if ((story.images || []).length && !out.length) console.warn('No images could be loaded, using placeholder backgrounds.');
   return out;
 }
 
