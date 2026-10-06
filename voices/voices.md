@@ -1,0 +1,100 @@
+# ElevenLabs voices (young first)
+
+Test one: npm run make -- stories/template-test.json --voice <id>
+
+- **Sarah - Mature, Reassuring, Confident** | id: `EXAVITQu4vr4xnSDxMaL` | female, young, american, professional, entertainment_tv
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/EXAVITQu4vr4xnSDxMaL/01a3e33c-6e99-4ee7-8543-ff2216a32186.mp3
+- **Laura - Enthusiast, Quirky Attitude** | id: `FGY2WhTYpPnrIDTdsKH5` | female, young, american, sassy, social_media
+  - Listen: https://api.us.elevenlabs.io/v1/voices/FGY2WhTYpPnrIDTdsKH5/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI2NzM0MTc1OS1hZDA4LTQxYTUtYmU2ZS1kZTEyZmU0NDg2MTgubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Charlie - Deep, Confident, Energetic** | id: `IKne3meq5aSn9XLyUdCD` | male, young, australian, hyped, conversational
+  - Listen: https://api.us.elevenlabs.io/v1/voices/IKne3meq5aSn9XLyUdCD/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIxMDJkZTZmMi0yMmVkLTQzZTAtYTFmMS0xMTFmYTc1YzU0ODEubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Harry - Fierce Warrior** | id: `SOYHLrjzK2X1ezoPC6cr` | male, young, american, rough, characters_animation
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/SOYHLrjzK2X1ezoPC6cr/86d178f6-f4b6-4e0e-85be-3de19f490794.mp3
+- **Liam - Energetic, Social Media Creator** | id: `TX3LPaxmHKxFdv7VOQHJ` | male, young, american, confident, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/TX3LPaxmHKxFdv7VOQHJ/63148076-6363-42db-aea8-31424308b92c.mp3
+- **Will - Relaxed Optimist** | id: `bIHbv24MWmeRgasZH58o` | male, young, american, chill, conversational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/bIHbv24MWmeRgasZH58o/8caf8f3d-ad29-4980-af41-53f20c72d7a4.mp3
+- **Jessica - Playful, Bright, Warm** | id: `cgSgspJ2msm6clMCkdW9` | female, young, american, cute, conversational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/cgSgspJ2msm6clMCkdW9/56a97bf8-b69b-448f-846c-c3a11683d45a.mp3
+- **Bunty - Punchy, Crisp and Reel King** | id: `FZkK3TvQ0pjyDmT8fzIW` | male, young, standard, excited, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/FZkK3TvQ0pjyDmT8fzIW/k39glMGS9gSdJLHIaJ4K.mp3
+- **Ezra - Confident & Engaging Conversationalist** | id: `RwGCfIzuc2tIJySQj0fD` | male, young, american, confident, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/6bfc926e2da647fba68c2047b3a5d8f8/voices/RwGCfIzuc2tIJySQj0fD/FUUqfnmcW3RUTvx0O8L2.mp3
+- **Harshit Arya - Strong, Deep and Casual** | id: `6TcvxMZXgg9AlJrd8iCl` | male, young, indian, deep, social_media
+  - Listen: https://api.us.elevenlabs.io/v1/voices/6TcvxMZXgg9AlJrd8iCl/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI0MDAxNzdkNzFmODI0ZGE4YjdmNjUwYzVlMDI0MGI2NyIsImZpbGVuYW1lIjoiNVVKOE9XS3FCSXRORlBUMTAzamgubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Mia Starset- Clear and Friendly** | id: `uNsWM1StCcpydKYOjKyu` | female, young, oslo, upbeat, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/a2175a4ce5a74c88868dd9d4a000c9a6/voices/uNsWM1StCcpydKYOjKyu/868f87d5-7724-4786-a7fa-a48e01b2ba54.mp3
+- **Pulse – Social Media News, Trending Stories, Viral Headlines Voice** | id: `mhgBlD8CmCSdwLDOIJpA` | male, young, american, hyped, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/00f6a36cb34b47b9a31f8a201566e4a1/voices/mhgBlD8CmCSdwLDOIJpA/vQeSUJ6pfP31qame8JdD.mp3
+- **Larisa Actrisa - Confident and Clear** | id: `AB9XsbSA4eLG12t2myjN` | female, young, standard, upbeat, social_media
+  - Listen: https://api.us.elevenlabs.io/v1/voices/AB9XsbSA4eLG12t2myjN/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiIxOTlhNjIwMTNkNjM0NDdkYjQ3MDJhMmY3M2ZjZDgyNCIsImZpbGVuYW1lIjoiNGhwdXRiVTJUbkZmQm9Vam43Q0wubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Zara – The Warm, Real-World Conversationalist** | id: `jqcCZkN6Knx8BJ5TBdYR` | female, young, american, confident, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/d46143e9e269470e93dfe36af0c66c6d/voices/jqcCZkN6Knx8BJ5TBdYR/JKHbp9CMKBoqcDFfzWIf.mp3
+- **Roger - Laid-Back, Casual, Resonant** | id: `CwhRBWXzGAHq8TQ4Fs17` | male, middle_aged, american, classy, conversational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/CwhRBWXzGAHq8TQ4Fs17/58ee3ff5-f6f2-4628-93b8-e38eb31806b0.mp3
+- **George - Warm, Captivating Storyteller** | id: `JBFqnCBsd6RMkjVDRZzb` | male, middle_aged, british, mature, narrative_story
+  - Listen: https://api.us.elevenlabs.io/v1/voices/JBFqnCBsd6RMkjVDRZzb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiJlNjIwNmQxYS0wNzIxLTQ3ODctYWFmYi0wNmE2ZTcwNWNhYzUubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Callum - Husky Trickster** | id: `N2lVS1w4EtoT3dr4eOWO` | male, middle_aged, american, characters_animation
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/N2lVS1w4EtoT3dr4eOWO/ac833bd8-ffda-4938-9ebc-b0f99ca25481.mp3
+- **River - Relaxed, Neutral, Informative** | id: `SAz9YHcvj6GT2YYXdXww` | neutral, middle_aged, american, calm, conversational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/SAz9YHcvj6GT2YYXdXww/e6c95f0b-2227-491a-b3d7-2249240decb7.mp3
+- **Alice - Clear, Engaging Educator** | id: `Xb7hH8MSUJpSbSDYk0k2` | female, middle_aged, british, professional, informative_educational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/Xb7hH8MSUJpSbSDYk0k2/d10f7534-11f6-41fe-a012-2de1e482d336.mp3
+- **Matilda - Knowledgable, Professional** | id: `XrExE9yKIg1WjnnlVkGX` | female, middle_aged, american, upbeat, informative_educational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/XrExE9yKIg1WjnnlVkGX/b930e18d-6b4d-466e-bab2-0ae97c6d8535.mp3
+- **Eric - Smooth, Trustworthy** | id: `cjVigY5qzO86Huf0OWal` | male, middle_aged, american, classy, conversational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/cjVigY5qzO86Huf0OWal/d098fda0-6456-4030-b3d8-63aa048c9070.mp3
+- **Bella - Professional, Bright, Warm** | id: `hpp4J3VqNfWAUOO0d1Us` | female, middle_aged, american, professional, informative_educational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/hpp4J3VqNfWAUOO0d1Us/dab0f5ba-3aa4-48a8-9fad-f138fea1126d.mp3
+- **Chris - Charming, Down-to-Earth** | id: `iP95p4xoKVk53GoZ742B` | male, middle_aged, american, casual, conversational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/iP95p4xoKVk53GoZ742B/3f4bde72-cc48-40dd-829f-57fbf906f4d7.mp3
+- **Brian - Deep, Resonant and Comforting** | id: `nPczCjzI2devNBz1zQrb` | male, middle_aged, american, classy, social_media
+  - Listen: https://api.us.elevenlabs.io/v1/voices/nPczCjzI2devNBz1zQrb/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiIyZGQzZTcyYy00ZmQzLTQyZjEtOTNlYS1hYmM1ZDRlNWFhMWQubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Daniel - Steady Broadcaster** | id: `onwK4e9ZLuTAKqWW03F9` | male, middle_aged, british, formal, informative_educational
+  - Listen: https://api.us.elevenlabs.io/v1/voices/onwK4e9ZLuTAKqWW03F9/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJwcmVtYWRlIiwiZmlsZW5hbWUiOiI3ZWVlMDIzNi0xYTcyLTRiODYtYjMwMy01ZGNhZGMwMDdiYTkubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Lily - Velvety Actress** | id: `pFZP5JQG7iQjIQuC4Bku` | female, middle_aged, british, confident, informative_educational
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/pFZP5JQG7iQjIQuC4Bku/89b68b35-b3dd-4348-a84a-a3c13a3c2b30.mp3
+- **Adam - Dominant, Firm** | id: `pNInz6obpgDQGcFmaJgB` | male, middle_aged, american, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/pNInz6obpgDQGcFmaJgB/d6905d7a-dd26-4187-bfff-1bd3a5ea7cac.mp3
+- ** Bob - Deep and Insightful** | id: `RWLFUuahyl6QdlLs8Al5` | male, middle_aged, american, classy, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/5c5541657e8a4325beb4afaf18816490/voices/RWLFUuahyl6QdlLs8Al5/77120b7d-9189-47ce-a8e1-a2c1c73b208b.mp3
+- **Asher James - Deep smooth hero for novels** | id: `NaMUH1vcebhHvD4z3Lku` | male, middle_aged, american, deep, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/0994e0e4d18945cfa16a7e1af6d55f01/voices/NaMUH1vcebhHvD4z3Lku/6ueVjuKhL35dFdRt1Uk8.mp3
+- **Connery – Intense Suspense Narration** | id: `66y97vsfcmXgLh93gcal` | male, middle_aged, american, intense, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/ed9b05e6324c457685490352e9a1ec90/voices/66y97vsfcmXgLh93gcal/d8GwVnYiHQGenkPRvCFL.mp3
+- **Frank – The Storyteller** | id: `a1TnjruAs5jTzdrjL8Vd` | male, middle_aged, british, confident, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/ad603e4c637c47f59d30bb081f61bde4/voices/a1TnjruAs5jTzdrjL8Vd/m52s95OUOSQvaEbvmSwm.mp3
+- **Drake: Warm Canadian English** | id: `HYM6YgFANZinEBanknZK` | male, middle_aged, calm, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/SFnt1jxYe3cwOOaLs7xhQxDFZp63/voices/HYM6YgFANZinEBanknZK/2edb9205-4b98-4437-bbfc-fabcc996c7df.mp3
+- **Kadir Kayışcı - Deep, Mature and Soft** | id: `j82ax9yhzfYwq9lDvRWL` | male, middle_aged, standard, professional, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/3881716ad45a4f748d11279f4dad25e9/voices/j82ax9yhzfYwq9lDvRWL/H8LmVodweSbxtWss4NAi.mp3
+- **Lucan Rook  - Energetic Male** | id: `15CVCzDByBinCIoCblXo` | male, middle_aged, american, crisp, social_media
+  - Listen: https://storage.googleapis.com/eleven-public-prod/XfNHbUnzYlfKcyqwGAOVIYehri33/voices/15CVCzDByBinCIoCblXo/7b63eb9a-f231-4f7e-8214-5810a5913b2e.mp3
+- **Grant - Deep, Soothing, Guided Meditation & Story Narration** | id: `ToW5f6Q4JNOYHENdBd0v` | male, middle_aged, american, confident, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/user/7q0q7iL13oRUKyNvVZ9eqTsWUcy2/voices/ToW5f6Q4JNOYHENdBd0v/26a36028-6294-46e0-a815-a9015d5622f7.mp3
+- **Knox Dark - Deep voice of a middle aged man, serious in read ** | id: `dPah2VEoifKnZT37774q` | male, middle_aged, american, serious, narrative_story
+  - Listen: https://api.us.elevenlabs.io/v1/voices/dPah2VEoifKnZT37774q/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI4NmI2N2NiODE4OWY0NDRkODc3Zjg3MjMzZGJkYWVmNiIsImZpbGVuYW1lIjoibUY0RDFpcjJ1TnpoTVlJV0JGQ0EubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Jon – Warm, Grounded Storyteller (Narration / Commercial Voice)** | id: `MFZUKuGQUsGJPQjTS4wC` | male, middle_aged, american, calm, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/7bdd69d9e581481a8ea5216493271f81/voices/MFZUKuGQUsGJPQjTS4wC/xEoCh0QqT3VPBukUnnNT.mp3
+- **Matthew Schmitz - Nosferatu Ancient Vampire Lord** | id: `Tj9l48J9AJbry5yCP5eW` | male, middle_aged, bulgarian, serious, characters_animation
+  - Listen: https://api.us.elevenlabs.io/v1/voices/Tj9l48J9AJbry5yCP5eW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJkMzA5ZWEyNTY4M2Q0ZDk3YjkyZTQ0NzcyYTQzMGM3NCIsImZpbGVuYW1lIjoiMTZaOGJ4Nm9pN0xNM0tkRHBOQm0ubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Screaming George** | id: `g4ucswVjPpazgbDDe327` | male, middle_aged, peninsular, intense, entertainment_tv
+  - Listen: https://api.us.elevenlabs.io/v1/voices/g4ucswVjPpazgbDDe327/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJjMDYzZTRmNzcxM2E0OWRiYmIxYzhlZWI0NGY3YjkzZiIsImZpbGVuYW1lIjoiN21VT3NKNEdDVnJBVXl6WG84Y3oubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Titan - Cinematic Trailer Voice** | id: `ZGgk7KqsgEdrlwJ93DA8` | male, middle_aged, american, intense, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/c9b65c63fc5d48858fd5a45fc70cd151/voices/ZGgk7KqsgEdrlwJ93DA8/meqGelRf1Nt6LTdKLU0D.mp3
+- **True - Crime & Horror Narrator** | id: `tZssYepgGaQmegsMEXjK` | male, middle_aged, american, serious, narrative_story
+  - Listen: https://api.us.elevenlabs.io/v1/voices/tZssYepgGaQmegsMEXjK/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiJiMjEwOTQxNmM3NTE0NDQ5YTVmMDY1NDBkMTBmMGU3MyIsImZpbGVuYW1lIjoiekJrWVplZGp0NFlxYWRzeXVzZFMubXAzIiwidGltZXN0YW1wIjoxNzkxMjg0NDAwMDAwMDAwfQ%3D%3D
+- **Ra'sun** | id: `nL7Nn9iAEdlXf7oChcj8` | male, middle_aged, american, casual, narrative_story
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/user/vT4fDPknOkRTcsz4mqU1ft7rjQ52/voices/nL7Nn9iAEdlXf7oChcj8/b5fae568-301b-4e6d-af9d-c8ddbb211d42.mp3
+- **Brooding Dark Christopher** | id: `BjCmiOq9A2piF1gMic0L` | male, middle_aged, american, intense, characters_animation
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/57ed5bac568e456895991eed5726668c/voices/BjCmiOq9A2piF1gMic0L/BsA1YWtjtVuF1IWs3XWa.mp3
+- **Bill - Wise, Mature, Balanced** | id: `pqHfZKP75CvOlQylNhV4` | male, old, american, crisp, advertisement
+  - Listen: https://storage.googleapis.com/eleven-public-prod/premade/voices/pqHfZKP75CvOlQylNhV4/d782b3ff-84ba-4029-848c-acf01285524d.mp3
+- **Jadakiss** | id: `tphMUo82q1avTIDOCY7a` | 
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/6c23384adf7c4679b03bb04ec98fdd3f/voices/tphMUo82q1avTIDOCY7a/3ae6c50b-05e6-400d-ba74-5cbf90d0cc6f.mp3
+- **NerdyWhite** | id: `lqVn47q0OGGEnWymYXJJ` | 
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/6c23384adf7c4679b03bb04ec98fdd3f/voices/lqVn47q0OGGEnWymYXJJ/80878a1b-e32b-470f-bc25-cbf1d19d533a.mp3
+- **Smokegiant** | id: `4MAIOHtXKJixlAq0CbqW` | 
+  - Listen: https://api.us.elevenlabs.io/v1/voices/4MAIOHtXKJixlAq0CbqW/previews/audio?payload=eyJ2b2ljZV9zb3VyY2UiOiJjdXN0b20iLCJ3b3Jrc3BhY2VfaWQiOiI2YzIzMzg0YWRmN2M0Njc5YjAzYmIwNGVjOThmZGQzZiIsImZpbGVuYW1lIjoiMzM4NzE0NjMtOGEzNS00M2YwLWEwMzgtYWMxZjgzYzE0MWJiLm1wMyIsInRpbWVzdGFtcCI6MTc5MTI4NDQwMDAwMDAwMH0%3D
+- **TrapAHolics** | id: `E2qvBKBI99sKyI3EToSC` | 
+  - Listen: https://storage.googleapis.com/eleven-public-prod/database/workspace/6c23384adf7c4679b03bb04ec98fdd3f/voices/E2qvBKBI99sKyI3EToSC/eaa25c13-d167-4d9c-8577-90b2152741cf.mp3
