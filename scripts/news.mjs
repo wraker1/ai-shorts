@@ -47,17 +47,26 @@ const decode = (t = '') =>
 
 const isImageUrl = (u) => /\.(jpe?g|png|webp)(\?|$)/i.test(u) || /(i\.redd\.it|preview\.redd\.it|i\.imgur\.com)/i.test(u);
 
-async function ogImage(url) {
+const stripTags = (h) =>
+  decode(h.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' '));
+
+async function pageInfo(url) {
   try {
-    const html = await (await get(url, 'text/html', 10000)).text();
-    const head = html.slice(0, 200000);
-    const m =
-      head.match(/<meta[^>]+(?:property|name)=["']og:image(?::url)?["'][^>]*content=["']([^"']+)["']/i) ||
-      head.match(/<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']og:image["']/i) ||
-      head.match(/<meta[^>]+name=["']twitter:image["'][^>]*content=["']([^"']+)["']/i);
-    return m ? new URL(decode(m[1]), url).href : '';
+    const html = (await (await get(url, 'text/html', 12000)).text()).slice(0, 400000);
+    const meta = (re) => (html.match(re) || [])[1];
+    const image =
+      meta(/<meta[^>]+(?:property|name)=["']og:image(?::url)?["'][^>]*content=["']([^"']+)["']/i) ||
+      meta(/<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']og:image["']/i) ||
+      meta(/<meta[^>]+name=["']twitter:image["'][^>]*content=["']([^"']+)["']/i);
+    const desc =
+      meta(/<meta[^>]+(?:property|name)=["']og:description["'][^>]*content=["']([^"']+)["']/i) ||
+      meta(/<meta[^>]+name=["']description["'][^>]*content=["']([^"']+)["']/i) ||
+      '';
+    const paras = [...html.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map((m) => stripTags(m[1])).filter((t) => t.length > 70);
+    const text = paras.join(' ').slice(0, 1500);
+    return {image: image ? new URL(decode(image), url).href : '', desc: decode(desc), text};
   } catch {
-    return '';
+    return {image: '', desc: '', text: ''};
   }
 }
 
@@ -98,8 +107,18 @@ async function redditJson(sub) {
   throw lastErr;
 }
 
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
 async function redditRss(sub) {
-  const xml = await (await get(`https://www.reddit.com/r/${sub}/top/.rss?t=day&limit=25`, 'application/atom+xml')).text();
+  const url = `https://www.reddit.com/r/${sub}/top/.rss?t=day&limit=25`;
+  let xml;
+  try {
+    xml = await (await get(url, 'application/atom+xml')).text();
+  } catch (e) {
+    if (!/429/.test(e.message)) throw e;
+    await sleep(12000);
+    xml = await (await get(url, 'application/atom+xml')).text();
+  }
   const entries = xml.split('<entry>').slice(1);
   return entries.map((e) => {
     const title = decode((e.match(/<title>([\s\S]*?)<\/title>/) || [])[1]);
@@ -107,13 +126,14 @@ async function redditRss(sub) {
     const content = decode((e.match(/<content[^>]*>([\s\S]*?)<\/content>/) || [])[1]);
     const ext = (content.match(/<a href="([^"]+)">\[link\]<\/a>/) || [])[1];
     const thumb = (content.match(/<img src="([^"]+)"/) || [])[1];
-    return {title, permalink: thread ? new URL(thread).pathname : '', url: ext || '', thumbnailFromRss: thumb || '', score: 0, num_comments: 0, rss: true};
+    return {title, permalink: thread ? new URL(thread).pathname : '', url: ext || '', score: 0, num_comments: 0, rss: true};
   });
 }
 
 const items = [];
 
 for (const sub of SUBS) {
+  await sleep(3000);
   let posts;
   try {
     posts = await redditJson(sub);
@@ -139,7 +159,7 @@ for (const sub of SUBS) {
       thread: p.permalink ? `https://www.reddit.com${p.permalink}` : '',
       link: link && !/reddit\.com|redd\.it/.test(link) ? link : '',
       flair: p.link_flair_text || '',
-      images: p.rss ? [] : redditImages(p),
+      images: p.rss ? (p.url && isImageUrl(p.url) ? [p.url] : []) : redditImages(p),
       date: p.created_utc ? new Date(p.created_utc * 1000).toISOString() : '',
     });
   }
@@ -193,18 +213,26 @@ if (!items.length) {
   process.exit(1);
 }
 
-// Fill in missing images from the article page itself (og:image), for the most relevant items only
-const pickTop = [...items.filter((i) => i.kind === 'reddit').sort((a, b) => b.score - a.score).slice(0, 25), ...items.filter((i) => i.kind === 'site')];
+// Read the article pages: image candidates (og:image) and the facts, for the most relevant items
+const pickTop = [
+  ...items.filter((i) => i.kind === 'reddit').sort((a, b) => b.score - a.score).slice(0, 30),
+  ...items.filter((i) => i.kind === 'site').sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, 40),
+];
 let filled = 0;
-for (const it of pickTop) {
-  if (!it.link || it.images.some((u) => !/redd\.it/.test(u))) continue;
-  const og = await ogImage(it.link);
-  if (og) {
-    it.images.unshift(og);
-    filled++;
-  }
+for (let k = 0; k < pickTop.length; k += 6) {
+  await Promise.all(
+    pickTop.slice(k, k + 6).map(async (it) => {
+      if (!it.link || /youtu\.?be/.test(it.link)) return;
+      const info = await pageInfo(it.link);
+      if (info.image && !it.images.includes(info.image)) {
+        it.images.unshift(info.image);
+        filled++;
+      }
+      it.summary = (info.desc + ' ' + info.text).trim().slice(0, 1600);
+    }),
+  );
 }
-console.log(`Added og:image to ${filled} items`);
+console.log(`Read ${pickTop.length} article pages, added images to ${filled}`);
 
 // ---------- Output ----------
 const day = new Date().toISOString().slice(0, 10);
@@ -215,12 +243,13 @@ fs.writeFileSync(path.join(outDir, `${day}.json`), JSON.stringify({day, status, 
 const L = [`# Gaming news candidates ${day}`, '', '## Source status', ''];
 for (const s of status) L.push(`- ${s.ok ? 'OK' : 'FAILED'}: ${s.name} (${s.detail})`);
 const reddit = items.filter((i) => i.kind === 'reddit').sort((a, b) => b.score - a.score).slice(0, 40);
-const site = items.filter((i) => i.kind === 'site');
+const site = items.filter((i) => i.kind === 'site').sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 const render = (i) => {
   const out = [`- **${i.title}** (${i.source}${i.flair ? ', ' + i.flair : ''}${i.score ? `, ${i.score} pts, ${i.comments} comments` : ''}${i.date ? ', ' + i.date.slice(0, 16) : ''})`];
   if (i.thread) out.push(`  - Thread: ${i.thread}`);
   if (i.link) out.push(`  - Article: ${i.link}`);
   for (const u of i.images) out.push(`  - Image: ${u}`);
+  if (i.summary) out.push(`  - Facts from the article: ${i.summary}`);
   return out.join('\n');
 };
 L.push('', '## Reddit, top of the day', '', ...reddit.map(render), '', '## Gaming sites, latest', '', ...site.map(render));
