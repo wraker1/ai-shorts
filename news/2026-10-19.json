@@ -1,0 +1,3568 @@
+{
+  "day": "2026-10-19",
+  "status": [
+    {
+      "name": "reddit r/Games",
+      "ok": true,
+      "detail": "rss 25 posts (json failed: HTTP 403)"
+    },
+    {
+      "name": "reddit r/gaming",
+      "ok": true,
+      "detail": "rss 25 posts (json failed: HTTP 403)"
+    },
+    {
+      "name": "reddit r/pcgaming",
+      "ok": true,
+      "detail": "archive 100 posts (json: HTTP 403, rss: HTTP 429)"
+    },
+    {
+      "name": "reddit r/PS5",
+      "ok": true,
+      "detail": "rss 6 posts (json failed: HTTP 403)"
+    },
+    {
+      "name": "reddit r/XboxSeriesX",
+      "ok": false,
+      "detail": "json: HTTP 403, rss: HTTP 429, archive: no posts"
+    },
+    {
+      "name": "reddit r/NintendoSwitch",
+      "ok": true,
+      "detail": "rss 5 posts (json failed: HTTP 403)"
+    },
+    {
+      "name": "reddit r/GamingLeaksAndRumours",
+      "ok": true,
+      "detail": "archive 5 posts (json: HTTP 403, rss: HTTP 429)"
+    },
+    {
+      "name": "feed IGN",
+      "ok": true,
+      "detail": "20 items"
+    },
+    {
+      "name": "feed PC Gamer",
+      "ok": true,
+      "detail": "50 items"
+    },
+    {
+      "name": "feed Eurogamer",
+      "ok": true,
+      "detail": "100 items"
+    },
+    {
+      "name": "feed GameSpot",
+      "ok": true,
+      "detail": "30 items"
+    },
+    {
+      "name": "feed Polygon",
+      "ok": true,
+      "detail": "10 items"
+    },
+    {
+      "name": "feed VGC",
+      "ok": true,
+      "detail": "10 items"
+    },
+    {
+      "name": "feed Rock Paper Shotgun",
+      "ok": true,
+      "detail": "100 items"
+    },
+    {
+      "name": "feed GamesRadar",
+      "ok": true,
+      "detail": "50 items"
+    }
+  ],
+  "items": [
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Clive Barker Was “Astonished” by How Far ‘Hellraiser: Revival’ Goes: “I’m Proud as Fuck” [Exclusive]",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9eknc/clive_barker_was_astonished_by_how_far_hellraiser/",
+      "link": "https://www.dreadcentral.com/gaming/593586/clive-barker-hellraiser-revival-approval-interview/",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Cyberpunk 2077 CO-OP Mod: the Whole Story Together | NightCoop Gameplay",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x93ptw/cyberpunk_2077_coop_mod_the_whole_story_together/",
+      "link": "https://www.youtube.com/watch?v=HINQG1VVJeM",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "How Star Wars: Galactic Racer kept the core team small and sustainable through \"distributed development\"",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x95ggd/how_star_wars_galactic_racer_kept_the_core_team/",
+      "link": "https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "No Rest for the Wicked's dramatic 1.0 transformation will \"likely\" lead to overpowered builds, but \"who cares?\"",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9bb8c/no_rest_for_the_wickeds_dramatic_10/",
+      "link": "https://www.pcgamesn.com/no-rest-for-the-wicked/1-0-class-system-overpowered-builds",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Second Stone will release a demo on Oct 19th for PC",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x99luw/second_stone_will_release_a_demo_on_oct_19th_for/",
+      "link": "https://youtu.be/NBP8qv6pOPQ?is=Lrjk5QxKQBIP0fAG",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Motorsport Manager 2: First Trailer",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9rakc/motorsport_manager_2_first_trailer/",
+      "link": "https://www.youtube.com/watch?v=XTqLvEJFYlU",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Mage Blast - Frost Owl - Start weak. End legendary. A fantasy incremental game about a mage’s rise",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x990ec/mage_blast_frost_owl_start_weak_end_legendary_a/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "How to Fish - 10 MILLION FISHERMEN WITHIN 2 MONTHS",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9pu5x/how_to_fish_10_million_fishermen_within_2_months/",
+      "link": "https://store.steampowered.com/news/app/4001890/view/697652160492473402?l=english",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Knuckle Creek - Claymatic Games - A slapstick party brawler for up to 8 players",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x96pcp/knuckle_creek_claymatic_games_a_slapstick_party/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Devolver Digital opens preorders for the BALL x PIT Deluxe Double Vinyl",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x97vj1/devolver_digital_opens_preorders_for_the_ball_x/",
+      "link": "https://www.theongaku.com/posts/ball-x-pit-nintendo-switch-2-edition",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Leviathan: Rhino - Amortiz Games - A horror game about loss, death, loneliness, and inevitability. The demo will be available during Steam Next Fest.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x98e3e/leviathan_rhino_amortiz_games_a_horror_game_about/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Seolhwa Dungeon - Sungki Soft - A roguelike RPG built from Korean folktales",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x91p41/seolhwa_dungeon_sungki_soft_a_roguelike_rpg_built/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "HEXRITE - Phabula - make pacts with gods in a PS2-inspired magical action-adventure!",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x91htv/hexrite_phabula_make_pacts_with_gods_in_a/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Shadows of Christmas Eve - InLoop Studios - A narrative-driven psychological horror game where nightmares invade reality",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9k43y/shadows_of_christmas_eve_inloop_studios_a/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Silent Trench - Drazil - Horror game where the only way to see is a sonar pulse",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9dj3j/silent_trench_drazil_horror_game_where_the_only/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Trifolium: The Adventures of Gary Pretzelneck - EmptyMatter - Long neck puzzler",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9cycp/trifolium_the_adventures_of_gary_pretzelneck/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Underground Security Inc - KRNK Studios - Roguelite Dungeon Defender",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9i5dr/underground_security_inc_krnk_studios_roguelite/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Everybody's Stranger - Tyrillion - A cozy, story-rich fantasy tavern RPG where you're not the hero. Everyone else is.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9cot3/everybodys_stranger_tyrillion_a_cozy_storyrich/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "DRAWN TO RACE - AGC - An Arcade Roguelite Racing Game with sketch-style visuals.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x93t6m/drawn_to_race_agc_an_arcade_roguelite_racing_game/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "The Detective's Apprentice - darqwerful - Detective game with \"howdunnit\" mysteries",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x916zx/the_detectives_apprentice_darqwerful_detective/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "All Roads Connected - Dushman Gaming Studio - 1.0 Released - An Exploration Tycoon City Builder",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x90q1k/all_roads_connected_dushman_gaming_studio_10/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Buy Happiness - Wayne Made A Game - Playtest signups now open for my big money deckbuilder!",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x8z6ef/buy_happiness_wayne_made_a_game_playtest_signups/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Number Machine - ARIELEK - factory automation with math mechanics",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x9dqte/number_machine_arielek_factory_automation_with/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "Legion Was Here - Geoffroy Monde - A dark comedy spy deduction game about faces and identities",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x96h6n/legion_was_here_geoffroy_monde_a_dark_comedy_spy/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/Games",
+      "title": "QBased GORILLAS - A-Town Techworks - an old-school style artillery PC game",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/Games/comments/1x95lc6/qbased_gorillas_atown_techworks_an_oldschool/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "'Batman: Arkham City' was released 15 years ago today",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9dxk6/batman_arkham_city_was_released_15_years_ago_today/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "(NSFW) I know Hellraiser Revival is sexually explicit, but this was too much for me.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9lzj1/nsfw_i_know_hellraiser_revival_is_sexually/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/a2awokeobcwh1.jpeg"
+      ],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Xbox is hiring a \"Physical Games Supply Strategist\" — will the next-gen Xbox Helix snub PlayStation and support discs?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9692q/xbox_is_hiring_a_physical_games_supply_strategist/",
+      "link": "https://www.windowscentral.com/gaming/xbox/xbox-is-hiring-a-physical-games-supply-strategist-is-it-swerving-left-on-playstations-anti-disc-stance",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "The Ecco The Dolphin Website now has a countdown with 24 Hours and 26 minutes (at the time of writing)",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9c58l/the_ecco_the_dolphin_website_now_has_a_countdown/",
+      "link": "https://www.eccothedolphin.com/en/",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "\"I was there\" - Reliving history is a potential that gaming should embrace",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9nltw/i_was_there_reliving_history_is_a_potential_that/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/jdrc46xdscwh1.jpeg"
+      ],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Red Dead Redemption 2 Mod Adds a Nemesis System, Gang Wars, and More",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9pgq3/red_dead_redemption_2_mod_adds_a_nemesis_system/",
+      "link": "https://primagames.com/news/red-dead-redemption-2-mod-adds-a-nemesis-system-gang-wars-more",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Older gamers, what was the first video game you remember making your jaw drop, visually??",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9lndy/older_gamers_what_was_the_first_video_game_you/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Any good road trip/driving games where you actually have a destination?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x93s0w/any_good_road_tripdriving_games_where_you/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Court Approves ‘voices38’ Subpoenas After Denuvo Drops Payment and Login Data Requests",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9ri0n/court_approves_voices38_subpoenas_after_denuvo/",
+      "link": "https://torrentfreak.com/court-approves-voices38-subpoenas-after-denuvo-drops-payment-and-login-data-requests/",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "New Star Wars games have been great lately. But I do dislike that all their stories have to be limited by canon.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9ojz7/new_star_wars_games_have_been_great_lately_but_i/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "What's a great game you just never beat for some strange reason?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9k549/whats_a_great_game_you_just_never_beat_for_some/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "In your opinion, What video game has the worst challenges?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9gdod/in_your_opinion_what_video_game_has_the_worst/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "I want to get my wife into gaming but I don’t know how",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9ovt9/i_want_to_get_my_wife_into_gaming_but_i_dont_know/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Sucker Punch veterans discuss Ghost of Yotei Complete Edition",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9cn5b/sucker_punch_veterans_discuss_ghost_of_yotei/",
+      "link": "https://www.videogameschronicle.com/features/interviews/sucker-punch-veterans-on-ghost-of-yotei-complete-edition-showing-a-different-side-to-atsu-and-the-history-of-the-studio/",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Is there a game that feels like the boardgame segment of Fable 3?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9ci8t/is_there_a_game_that_feels_like_the_boardgame/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Trying to remember a game where the protagonist has a power glove/hand in a cold war military research facility",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9mzbo/trying_to_remember_a_game_where_the_protagonist/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Looking for games with exploration and competitive online aspects.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x991s8/looking_for_games_with_exploration_and/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "Making Friends Monday! Share your game tags here!",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9oyu4/making_friends_monday_share_your_game_tags_here/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "One of the most fun multiplayer I´ve played on PC",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x97rke/one_of_the_most_fun_multiplayer_ive_played_on_pc/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "What should I play next? In need of assistance",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9peo1/what_should_i_play_next_in_need_of_assistance/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "To those who have played battlefield 6 what are your thoughts?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x955md/to_those_who_have_played_battlefield_6_what_are/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "THE FINALS is the first multiplayer FPS with text-to-speech commentary that says your name during matches",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x97l2z/the_finals_is_the_first_multiplayer_fps_with/",
+      "link": "https://youtu.be/eA9_Q6d2H-g",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "OPINION: Developers should downgrade graphics back to 2015 - 2018.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x96945/opinion_developers_should_downgrade_graphics_back/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/0bt4t9aww8wh1.png"
+      ],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "gaming in dubai?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x9ichm/gaming_in_dubai/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/gaming",
+      "title": "My dumb opinion but digital gaming wouldn't be viewed as negatively if we actually had ownership and wasn't at risk of being removed.",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/gaming/comments/1x97d5x/my_dumb_opinion_but_digital_gaming_wouldnt_be/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Exploring pitch-black alien caves where light can get you killed. MOVILLIA demo is available now!",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9s3ya/exploring_pitchblack_alien_caves_where_light_can/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/p4alz89x5ewh1.jpeg"
+      ],
+      "date": "2026-10-19T09:18:27.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "[ Removed by Reddit ]",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9riap/removed_by_reddit/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T08:41:05.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Cozy Builder - Build Your Chateau in a Charming Wine Country - Available Now",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9rhlo/cozy_builder_build_your_chateau_in_a_charming/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/dwygj175xdwh1.png",
+        "https://preview.redd.it/dwygj175xdwh1.png?auto=webp&s=bc9be697805841e8c4f6de7720e110caf8cebbd3"
+      ],
+      "date": "2026-10-19T08:39:47.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "PC’s overall are so awesome",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9rd6x/pcs_overall_are_so_awesome/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T08:31:51.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Question for gamers",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9qoxn/question_for_gamers/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T07:49:22.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "New PC Gaming debate about AI",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9q8fx/new_pc_gaming_debate_about_ai/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T07:19:44.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Pc Modern title struggles",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9py80/pc_modern_title_struggles/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/chbjbc7lhdwh1.jpeg"
+      ],
+      "date": "2026-10-19T07:02:03.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "PC content creation help",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9ph2z/pc_content_creation_help/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T06:31:40.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "[ Removed by moderator ]",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9ojjk/removed_by_moderator/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T05:34:36.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Lookin for fun w games",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9o9ld/lookin_for_fun_w_games/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T05:18:01.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Potato phones can turn high-end? It's all thanks to Coffeego cloud gaming. #BudgetPhoneSavior #CloudGaming #AAAGames",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9nju9/potato_phones_can_turn_highend_its_all_thanks_to/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/zejxoc6trcwh1.jpeg"
+      ],
+      "date": "2026-10-19T04:37:35.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "verification for Survival Log",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9nj8a/verification_for_survival_log/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T04:36:37.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "verification for Survival Log",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9ndma/verification_for_survival_log/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/s2579reypcwh1.png"
+      ],
+      "date": "2026-10-19T04:27:40.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "RED DEAD REDEMPTION 2 WALLPAPER/PHOTOS",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9msc2/red_dead_redemption_2_wallpaperphotos/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T03:55:04.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "New Blooket Tournament Join Up!!",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9mkat/new_blooket_tournament_join_up/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T03:42:15.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "does anyone know if this guide is outdated since it came out 6 years ago? for red dead redemption 2",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9mfpn/does_anyone_know_if_this_guide_is_outdated_since/",
+      "link": "https://www.youtube.com/watch?v=C3xQ33Cq4CE&t=3s",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T03:35:14.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "I’ve been building an oil tycoon game in my spare time, and the playable version is finally available!",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9m7c8/ive_been_building_an_oil_tycoon_game_in_my_spare/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/co4yushbecwh1.png"
+      ],
+      "date": "2026-10-19T03:22:07.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "What’s everyone doing for GTAIV since it comes out in console first?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9lqw9/whats_everyone_doing_for_gtaiv_since_it_comes_out/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T02:58:10.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Anyone Else Not Care About GTA6?",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9ldff/anyone_else_not_care_about_gta6/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T02:38:21.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "[ Removed by moderator ]",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9lc2f/removed_by_moderator/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T02:36:18.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Shadow of the Colossus native PC port: my fork now runs ~40-49 FPS in the Shrine (was ~29), with optional FSR 3 frame generation",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9kuj3/shadow_of_the_colossus_native_pc_port_my_fork_now/",
+      "link": "https://www.youtube.com/watch?v=47DdClybEAM",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T02:11:00.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Shadow of the Colossus native PC port: my fork now runs ~40-49 FPS in the Shrine (was ~29), with optional FSR 3 frame generation",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9kslv/shadow_of_the_colossus_native_pc_port_my_fork_now/",
+      "link": "https://www.youtube.com/watch?v=47DdClybEAM",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T02:08:16.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "The Black Pool is on sale for $5 for a few more hours, coop shooter roguelike with Returnal-esque vibes",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9kmmn/the_black_pool_is_on_sale_for_5_for_a_few_more/",
+      "link": "https://store.steampowered.com/app/2189670/The_Black_Pool/",
+      "flair": "",
+      "images": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2189670/capsule_616x353.jpg?t=1756790364",
+        "https://external-preview.redd.it/qW3VeVxv6ZEsExqe2JF3vtS4crKGIjFbzpKRNmMlaJM.jpeg?auto=webp&s=af2a873c59f5e0893c7c1eef577cecc258b51301",
+        "https://store.fastly.steamstatic.com/public/shared/images/responsive/header_menu_hamburger.png",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2189670/ss_b11d6aa8ef95fdd17b58807706a55dbbf533ec18.1920x1080.jpg?t=1756790364",
+        "https://shared.fastly.steamstatic.com/community_assets/images/apps/2189670/b59baab6a1d1e0ff126aa00745e214d40c57240c.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2189670/header.jpg?t=1756790364",
+        "https://store.fastly.steamstatic.com/public/images/v6/ico/ico_singlePlayer.png",
+        "https://store.fastly.steamstatic.com/public/images/v6/ico/ico_coop.png"
+      ],
+      "date": "2026-10-19T01:59:54.000Z",
+      "summary": "In the forest outside of town, four friends discover a mysterious black pool that transports them to an unknown world. To fight their way home, they must unlock and master supernatural abilities. Play cooperative or solo in this high-paced action game of skill that varies each session. Sign in to add this item to your wishlist, follow it, or mark it as ignored Discord View update history Read related news View discussions Find Community Groups Embed &nbsp; Links & info Buy The Black Pool WEEK LONG DEAL! Offer ends in The Black Pool is a 3d action roguelike to be played solo or preferably with up to 3 of your friends. Each attempt to make it back home will take you through a gauntlet of different worlds. You will discover different elements, abilities, and upgrades. Striking visuals, an electrifying soundtrack, and high-paced skilled action will plunge you into each attempt to battle your way out. The Black Pool has taken you to a remote and unknown galactic system. In each attempt to return home, you will traverse across a random sequence of highly diverse worlds. Throughout your journey, carefully select powers from a large pool of random possibilities, complementing existing abilities and those of your friends. Strategically upgrade these abilities to maximize your potential. This procedural sequence of worlds, offerings of abilities, and upgrades, yields a highly replayable roguelike sequence which ensures that every session is completely unique. There are millions of possibilities. Committing to decisions and improvising an effective build is core to the game. Can you b"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Perfect Bleed out Spot?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9kmi3/perfect_bleed_out_spot/",
+      "link": "https://youtube.com/shorts/b4dlzZrQ3Ms?is=cAW-E_5gcJVCye7_",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T01:59:43.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Perfect bleed out spot?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9kjei/perfect_bleed_out_spot/",
+      "link": "https://youtube.com/shorts/b4dlzZrQ3Ms?is=cAW-E_5gcJVCye7_",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T01:55:21.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "I built a tool that makes a Bluetooth DualSense show up as wired on PC, so HD haptics and adaptive triggers work wirelessly",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9k89a/i_built_a_tool_that_makes_a_bluetooth_dualsense/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T01:39:22.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Help me upgrade!",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9jok1/help_me_upgrade/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T01:11:37.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Underground Security Inc | Next Fest Trailer",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9jm9a/underground_security_inc_next_fest_trailer/",
+      "link": "https://youtu.be/3xNMm0BOZ2g?si=XTp75-P_Nhvrciq-",
+      "flair": "Video",
+      "images": [
+        "https://external-preview.redd.it/s1JrA0pYqm9pZ7rk0sRvFBV8vm1_ON-waediYftzcfw.jpeg?format=pjpg&auto=webp&s=73b59ff177208c37678b8605ed811c96da967e80"
+      ],
+      "date": "2026-10-19T01:08:24.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Underground Security Inc |",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9jli9/underground_security_inc/",
+      "link": "https://youtu.be/3xNMm0BOZ2g?si=XTp75-P_Nhvrciq-",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T01:07:22.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Underground Security Inc | Next Fest Trailer",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9isge/underground_security_inc_next_fest_trailer/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T00:27:07.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "[ Removed by moderator ]",
+      "score": 1,
+      "comments": 2,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9io4d/removed_by_moderator/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T00:21:04.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "[ Removed by moderator ]",
+      "score": 1,
+      "comments": 2,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9ijwv/removed_by_moderator/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-19T00:15:23.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Azeroth Survivors",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9hzn4/azeroth_survivors/",
+      "link": "https://www.youtube.com/live/HE3lekeLtpk?is=VIIZIf9io9h7gMA0",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T23:49:10.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Verify on quit in all games.",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9hg0g/verify_on_quit_in_all_games/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T23:22:10.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "I made a non AI fan trailer for a hidden free MMO I play 💎",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9h8xv/i_made_a_non_ai_fan_trailer_for_a_hidden_free_mmo/",
+      "link": "https://youtu.be/GByx_ya7ZEw?si=_GuJ0NTzUi_zcWfp",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T23:12:30.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Disengaging from random multiplayer?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9h6su/disengaging_from_random_multiplayer/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T23:09:34.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Party chat for pc",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9gknr/party_chat_for_pc/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T22:40:16.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "GearUP Booster Free Trial / Discount Code (wsn20) - Reduce Ping & Fix Lag in Games!",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9fsy3/gearup_booster_free_trial_discount_code_wsn20/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T22:05:43.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Budget gaming keyboard",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9euvf/budget_gaming_keyboard/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T21:25:03.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "War: Ascension – Static Recompilation & Native PC Port Project",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9e0o2/war_ascension_static_recompilation_native_pc_port/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T20:49:56.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "What do my mains say about me",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9e07o/what_do_my_mains_say_about_me/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/7ww82ueagawh1.jpeg"
+      ],
+      "date": "2026-10-18T20:49:25.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "God Of War: Ascension – Static Recompilation & Native PC Port Project",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9dwkt/god_of_war_ascension_static_recompilation_native/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T20:45:07.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Gravity Circuit 2 | Demo Launch Trailer",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9dde6/gravity_circuit_2_demo_launch_trailer/",
+      "link": "https://www.youtube.com/watch?v=TCvZjiyUWBU",
+      "flair": "Video",
+      "images": [
+        "https://external-preview.redd.it/mFDmbg-5nlPDJBYXQ-ys-1Psuk__jR4u2ZSA5nVZlWQ.jpeg?format=pjpg&auto=webp&s=2a6a348cba7289d0657743904cc6c4eabb565e1b"
+      ],
+      "date": "2026-10-18T20:22:57.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Indie game developed by indie dev!",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9d5ya/indie_game_developed_by_indie_dev/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T20:14:33.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Kingdom Hearts II - Local Multiplayer Mod (Three-Player Co-Op)",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9d3lv/kingdom_hearts_ii_local_multiplayer_mod/",
+      "link": "https://www.youtube.com/watch?v=0P5i8QcqZkA",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T20:11:54.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Halo: The Mystic Isles (FanGame WIP)",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9cspc/halo_the_mystic_isles_fangame_wip/",
+      "link": "https://www.youtube.com/watch?v=FHo8NNKpH30&t=4s",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T20:00:23.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "[ Removed by moderator ]",
+      "score": 1,
+      "comments": 2,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9cpvd/removed_by_moderator/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T19:57:24.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Need advice for a good PC monitor",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9coy9/need_advice_for_a_good_pc_monitor/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T19:56:20.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "GD geometría dash",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9cchc/gd_geometría_dash/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T19:42:05.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Discord EU Aniimo server",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9bkxa/discord_eu_aniimo_server/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T19:11:46.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "What do you think about my 60% Keyboard",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9ay5a/what_do_you_think_about_my_60_keyboard/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/gvhxsi3fu9wh1.jpeg"
+      ],
+      "date": "2026-10-18T18:46:53.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "How to play \"no I'm not a human\"",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9aupi/how_to_play_no_im_not_a_human/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T18:43:08.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Best prebuilt pc",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9akvh/best_prebuilt_pc/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T18:32:04.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "[Dev Post] We just released the free Steam demo for Harpoon Crew, a co-op ocean sim where you hunt sea beasts with friends",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9ae5z/dev_post_we_just_released_the_free_steam_demo_for/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/162g001fq9wh1.png"
+      ],
+      "date": "2026-10-18T18:24:36.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "How big should a monitor be? I was thinking 24-30",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x99v6m/how_big_should_a_monitor_be_i_was_thinking_2430/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T18:03:41.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Bubblegum ballers teaser",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x99tfj/bubblegum_ballers_teaser/",
+      "link": "https://youtube.com/shorts/Gl1yrvGFAAQ?feature=share",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T18:01:46.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "https://www.youtube.com/@heyvivaansharma?sub_confirmation=1",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x99no7/httpswwwyoutubecomheyvivaansharmasub_confirmation1/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T17:55:42.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Evil Moon: Unspoken Demo on Steam",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x99naf/evil_moon_unspoken_demo_on_steam/",
+      "link": "https://store.steampowered.com/app/5248110/Evil_Moon_Unspoken_Demo/",
+      "flair": "",
+      "images": [
+        "https://external-preview.redd.it/SQY-434CfUEXUlXjcswwClXZse0UnaouYWXC19F2UHw.jpeg?auto=webp&s=a64cb1f4fac0773b5f56635e8a9c068d6a549b64"
+      ],
+      "date": "2026-10-18T17:55:21.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Tarantula 8k Controller Right Stick Thinks it's the Left Stick",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x99jv4/tarantula_8k_controller_right_stick_thinks_its/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T17:51:46.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Photorealism shit going on",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x99dno/photorealism_shit_going_on/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/lgwekvwdj9wh1.jpeg"
+      ],
+      "date": "2026-10-18T17:45:00.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Game Code for sale /Tomb Raider + Galactic racer",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x997xt/game_code_for_sale_tomb_raider_galactic_racer/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/idpyycn6i9wh1.png"
+      ],
+      "date": "2026-10-18T17:38:34.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Will an Arctic AIO fit in the SuperFrame Vhagar with an ASUS TUF B550M-PLUS motherboard?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x995r3/will_an_arctic_aio_fit_in_the_superframe_vhagar/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T17:36:03.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Jeff Kaplan Was An Industry Icon, Now Peers Ignore His Emails: Ex-Overwatch Director Talks “Humbling” Reality Of Indie Dev",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x98wm0/jeff_kaplan_was_an_industry_icon_now_peers_ignore/",
+      "link": "https://www.gamespot.com/articles/jeff-kaplan-was-an-industry-icon-now-peers-ignore-his-emails-ex-overwatch-director-talks-humbling-reality-of-indie-dev",
+      "flair": "",
+      "images": [
+        "https://external-preview.redd.it/MySUKHH3eVF_XkL5uTDUf3ZOIfsC370edkhDpGTQ76I.png?auto=webp&s=562205e5d590bc28b8f20eb75530217a5c317f48"
+      ],
+      "date": "2026-10-18T17:26:09.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "What game is this",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x98pc7/what_game_is_this/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/xdpnle5ke9wh1.jpeg"
+      ],
+      "date": "2026-10-18T17:17:58.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "My Yu-Gi-Oh fan made game is finally playable!",
+      "score": 1,
+      "comments": 2,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x98ajn/my_yugioh_fan_made_game_is_finally_playable/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/sqkrwflmb9wh1.png"
+      ],
+      "date": "2026-10-18T17:01:41.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Silent Hill f and Fatal Frame creators discuss why J-horror so often centers on women and why oppression is at the heart of many “vengeful ghost” stories",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x97y4h/silent_hill_f_and_fatal_frame_creators_discuss/",
+      "link": "https://automaton-media.com/en/news/silent-hill-f-and-fatal-frame-creators-discuss-why-j-horror-so-often-centers-on-women-and-why-oppression-is-at-the-heart-of-many-vengeful-ghost-stories/",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T16:47:32.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Ports de play a PC",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x97oh5/ports_de_play_a_pc/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T16:36:25.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Update on Thrust 2050 Game",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x97g4r/update_on_thrust_2050_game/",
+      "link": "https://youtube.com/watch?v=2fyLs3xDqVU&si=z7HGUWus8j14KUCJ",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T16:27:03.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Liquid Swords, developer of open-city crime sim Samson, has gone bankrupt following staff claims that they haven't been paid in two months",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x97bjq/liquid_swords_developer_of_opencity_crime_sim/",
+      "link": "https://www.pcgamer.com/gaming-industry/liquid-swords-developer-of-open-city-crime-sim-samson-has-gone-bankrupt-following-staff-claims-that-they-havent-been-paid-in-two-months/",
+      "flair": "",
+      "images": [
+        "https://external-preview.redd.it/X7zmKVfvRggYOD778LLfH7uuE2qqZRlm6zT6l7aqhho.jpeg?auto=webp&s=62dda8d64f7406f09eb4d610b76340c56b7791c9"
+      ],
+      "date": "2026-10-18T16:21:53.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Code of The Savage — Open-world RPG Inspired by Ultima — Demo Out Now | Launch Trailer",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x976yr/code_of_the_savage_openworld_rpg_inspired_by/",
+      "link": "https://www.youtube.com/watch?v=Pn0QoN69C2U",
+      "flair": "Video",
+      "images": [
+        "https://external-preview.redd.it/uJTeNRQlxyddTHyHyLBxYe_Db_TknArlTjq6u1aZoWM.jpeg?format=pjpg&auto=webp&s=454c577106c6b98b7f0dbe5e3134436986b35c42"
+      ],
+      "date": "2026-10-18T16:16:46.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Would you survive an asylum with no weapons and a demonic doll hunting you?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x974wd/would_you_survive_an_asylum_with_no_weapons_and_a/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T16:14:25.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "WarDogs Season 1 Highlights: Don Key",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x974t6/wardogs_season_1_highlights_don_key/",
+      "link": "https://youtu.be/tcmmr-OxqKM?is=35-_p7GrzgF7L15f",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T16:14:20.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Best things for a setup?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x96z5f/best_things_for_a_setup/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T16:08:11.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "How bad is this PC for the new COD coming out, MW4?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x96inl/how_bad_is_this_pc_for_the_new_cod_coming_out_mw4/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T15:50:08.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "So... Stutters: Dealbreaker or do you push through?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x96e29/so_stutters_dealbreaker_or_do_you_push_through/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T15:44:58.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x96dmz/clive_barker_says_hes_genuinely_astonished_by/",
+      "link": "https://www.pcgamer.com/games/horror/clive-barker-says-hes-genuinely-astonished-by-hellraiser-revival-im-proud-as-f-k-at-the-end-result/",
+      "flair": "",
+      "images": [
+        "https://external-preview.redd.it/SdmGwQ0WwTFno15jX0iPCycSMrAbsAiAAntu-ISirr0.jpeg?auto=webp&s=a5a4c1ad584ac1171c7de9d30597e76be4cc2f38"
+      ],
+      "date": "2026-10-18T15:44:29.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Does lawn mowing simulator 2 work on a PC?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x96cki/does_lawn_mowing_simulator_2_work_on_a_pc/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T15:43:17.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Giving Video Game NPC's Consciousness | Halo Decompilation Project",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x95xhl/giving_video_game_npcs_consciousness_halo/",
+      "link": "https://www.youtube.com/watch?v=EOfm3h4xYU8",
+      "flair": "Video",
+      "images": [
+        "https://external-preview.redd.it/iFE5Vtjw0HFbImS46eFh7RKAYcC79KBsW_0fMcg8W2w.jpeg?format=pjpg&auto=webp&s=fb787f6cfee1712e8464e19229208c351bf56871"
+      ],
+      "date": "2026-10-18T15:25:38.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Are Cloud Gaming PCs Becoming a Real Alternative to Building a Gaming PC?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x95gfe/are_cloud_gaming_pcs_becoming_a_real_alternative/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T15:05:54.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Join the swett server",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x958rt/join_the_swett_server/",
+      "link": "https://discord.gg/vNpZsudQJ****",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T14:57:20.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Gears of War: E-Day VR Mod – Full Campaign in Virtual Reality | Trailer (Early WIP)",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x94kn8/gears_of_war_eday_vr_mod_full_campaign_in_virtual/",
+      "link": "https://www.youtube.com/watch?v=5vXPBVKwbHs",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T14:28:17.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Arc System Works Opens New Development Studio, “ARC SYSTEM WORKS TOKYO STUDIO TAKUMI”",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x94jii/arc_system_works_opens_new_development_studio_arc/",
+      "link": "https://www.arcsystemworks.jp/portal/post-31546/#TokyoStudio_EN",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T14:26:51.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "New Game Recommendations",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x94i49/new_game_recommendations/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T14:25:08.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "After Star Wars: Zero Company and Galactic Racer, Lucasfilm says it will \"continue to surprise folks\" and is \"more flexible\" with the franchise",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x94hiu/after_star_wars_zero_company_and_galactic_racer/",
+      "link": "https://www.gamesradar.com/games/action/after-star-wars-zero-company-and-galactic-racer-lucasfilm-says-it-will-continue-to-surprise-folks-and-is-more-flexible-with-the-franchise/",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T14:24:24.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Are Cloud Gaming PCs Becoming a Real Alternative to Building a Gaming PC?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x94c1d/are_cloud_gaming_pcs_becoming_a_real_alternative/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/1wdpzcysh8wh1.png"
+      ],
+      "date": "2026-10-18T14:17:36.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "BROO!!! Latency issue on i713700hx 5050",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x945b1/broo_latency_issue_on_i713700hx_5050/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T14:09:25.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Would you recommend a wired or wireless mouse for PC gaming?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x939ng/would_you_recommend_a_wired_or_wireless_mouse_for/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T13:29:41.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Reverse engineering an old game",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x9322a/reverse_engineering_an_old_game/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T13:19:45.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Does this exist? A wireless keyboard and mouse that’s good for gaming and can switch between 2 computers?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x92qgn/does_this_exist_a_wireless_keyboard_and_mouse/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T13:04:21.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "What game would make the best movie?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x91wnm/what_game_would_make_the_best_movie/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/n3sz799ux7wh1.png"
+      ],
+      "date": "2026-10-18T12:22:27.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "I made an app to invert the X and Y mouse axes in games and across Windows",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x91fat/i_made_an_app_to_invert_the_x_and_y_mouse_axes_in/",
+      "link": "https://github.com/ForeverZlink/SteinsKeys",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T11:57:25.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "I want to share my dogfight sim here so you all can try it",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8znu1/i_want_to_share_my_dogfight_sim_here_so_you_all/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/o946onqka7wh1.jpeg"
+      ],
+      "date": "2026-10-18T10:13:41.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Pachinko Games for PS2",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8z9gc/pachinko_games_for_ps2/",
+      "link": "",
+      "flair": "",
+      "images": [
+        "https://i.redd.it/zr8kc0pe67wh1.png"
+      ],
+      "date": "2026-10-18T09:48:56.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "What is your biggest gaming achievement?",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8z98k/what_is_your_biggest_gaming_achievement/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T09:48:35.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Rate my pc build",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8z5wp/rate_my_pc_build/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T09:42:30.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Help me give my brother his dream pc",
+      "score": 0,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8z58u/help_me_give_my_brother_his_dream_pc/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T09:41:18.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Rate my gaming pc build",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8z4t1/rate_my_gaming_pc_build/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T09:40:29.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Help me get my brothers dream birthday",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8z368/help_me_get_my_brothers_dream_birthday/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T09:37:28.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/pcgaming",
+      "title": "Crowfarm – Official Announcement Trailer | Co-op Farming Horror",
+      "score": 1,
+      "comments": 1,
+      "thread": "https://www.reddit.com/r/pcgaming/comments/1x8yr2u/crowfarm_official_announcement_trailer_coop/",
+      "link": "https://youtu.be/ETJb3tJWqDo",
+      "flair": "",
+      "images": [],
+      "date": "2026-10-18T09:15:50.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/PS5",
+      "title": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/PS5/comments/1x9bw9a/clive_barker_says_hes_genuinely_astonished_by/",
+      "link": "https://www.pcgamer.com/games/horror/clive-barker-says-hes-genuinely-astonished-by-hellraiser-revival-im-proud-as-f-k-at-the-end-result/",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/PS5",
+      "title": "Modern Warfare 4 Pays Tribute to Call of Duty Devs That Passed Including Co-Creator, Vince Zampella",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/PS5/comments/1x95myp/modern_warfare_4_pays_tribute_to_call_of_duty/",
+      "link": "https://mp1st.com/news/modern-warfare-4-pays-tribute-call-of-duty-devs-passed-including-co-creator-vince-zampella",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/PS5",
+      "title": "Lucasfilm Is \"Exploring\" Star Wars Games That Will \"Surprise\" Fans",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/PS5/comments/1x9duii/lucasfilm_is_exploring_star_wars_games_that_will/",
+      "link": "https://mp1st.com/news/lucasfilm-is-exploring-star-wars-games-will-surprise-fans",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/PS5",
+      "title": "Ancestors: The Humankind Odyssey - Official Trailer | PS5 Games",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/PS5/comments/1x9cj75/ancestors_the_humankind_odyssey_official_trailer/",
+      "link": "https://www.youtube.com/watch?app=desktop&amp;v=G1Dg38yZuYg",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/PS5",
+      "title": "How Star Wars: Galactic Racer kept the core team small and sustainable through \"distributed development\"",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/PS5/comments/1x95glg/how_star_wars_galactic_racer_kept_the_core_team/",
+      "link": "https://www.gamesindustry.biz/how-star-wars-galactic-racer-kept-the-core-team-small-and-sustainable-through-distributed-development",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/PS5",
+      "title": "Evil Empire \"will always miss Dead Cells,\" but it's already working on its dream collab",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/PS5/comments/1x9bumk/evil_empire_will_always_miss_dead_cells_but_its/",
+      "link": "https://www.pcgamesn.com/dead-cells/evil-empire-dream-collaboration",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/NintendoSwitch",
+      "title": "Digital Foundry: Metaphor: ReFantazio Switch 2 Demo - A Promising Port... With A Major Bug To Fix",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/NintendoSwitch/comments/1x98nk0/digital_foundry_metaphor_refantazio_switch_2_demo/",
+      "link": "https://www.youtube.com/watch?v=1dnrMWckF0Q",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/NintendoSwitch",
+      "title": "Call of Duty: Modern Warfare 4 — Nintendo Switch 2 Gameplay via IGN",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/NintendoSwitch/comments/1x937rp/call_of_duty_modern_warfare_4_nintendo_switch_2/",
+      "link": "https://www.youtube.com/watch?v=TDzfvp5FboM",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/NintendoSwitch",
+      "title": "AMA / Mind Diver - a narrative detective game inside a mind. Dev here to answer any questions!",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/NintendoSwitch/comments/1x98m70/ama_mind_diver_a_narrative_detective_game_inside/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/NintendoSwitch",
+      "title": "/r/NintendoSwitch's Daily Question Thread (10/19/2026)",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/NintendoSwitch/comments/1x9py2q/rnintendoswitchs_daily_question_thread_10192026/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/NintendoSwitch",
+      "title": "In Fire Emblem Fortune's Weave if one of your units dies in Turn 10 Enemy Phase of Dietrich's Paralogue there is no way to restart the battle, you can only restart the entire chapter",
+      "score": 0,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/NintendoSwitch/comments/1x8zix9/in_fire_emblem_fortunes_weave_if_one_of_your/",
+      "link": "",
+      "flair": "",
+      "images": [],
+      "date": ""
+    },
+    {
+      "kind": "reddit",
+      "source": "r/GamingLeaksAndRumours",
+      "title": "⚔️🐉 The Elder Scrolls Online – 24/7 🐉⚔️ 🔥 Bored? Then you've come to the right place! 🔥 🏰 Dive into the world of Tamriel and experience beautiful stories, exciting adventures, and epic battles! 🛡️⚔️ 💜 Whether you're an ESO veteran or a new adventurer, everyone is welcome here! 🎮 zuluyo99",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x9dx3c/the_elder_scrolls_online_247_bored_then_youve/",
+      "link": "",
+      "flair": "No Source",
+      "images": [],
+      "date": "2026-10-18T20:45:42.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/GamingLeaksAndRumours",
+      "title": "New job listing suggests that Xbox may be looking to improve its presence in the physical games market",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x9ba6z/new_job_listing_suggests_that_xbox_may_be_looking/",
+      "link": "",
+      "flair": "Job Listing",
+      "images": [],
+      "date": "2026-10-18T19:00:06.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/GamingLeaksAndRumours",
+      "title": "Exchange",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x9b5h6/exchange/",
+      "link": "",
+      "flair": "Confirmed",
+      "images": [],
+      "date": "2026-10-18T18:54:58.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/GamingLeaksAndRumours",
+      "title": "[EU] Kochi Elyos – A little update before server transfers",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x91vfq/eu_kochi_elyos_a_little_update_before_server/",
+      "link": "",
+      "flair": "Confirmed",
+      "images": [],
+      "date": "2026-10-18T12:20:44.000Z"
+    },
+    {
+      "kind": "reddit",
+      "source": "r/GamingLeaksAndRumours",
+      "title": "Xbox is hiring a \"Physical Games Supply Strategist\" — will the next-gen Xbox Helix snub PlayStation and support discs? News By Jez Corden",
+      "score": 1,
+      "comments": 0,
+      "thread": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1x90iid/xbox_is_hiring_a_physical_games_supply_strategist/",
+      "link": "",
+      "flair": "Job Listing",
+      "images": [],
+      "date": "2026-10-18T11:05:16.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "Silent Hill Remake Studio Wants to Make Physical Games 'for as Long as Possible'",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/silent-hill-remake-studio-wants-to-make-physical-games-for-as-long-as-possible",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2024/05/30/silenthill2-1717063971235.jpg?width=1280&format=jpg&auto=webp&quality=80",
+        "https://assets-prd.ignimgs.com/2024/05/30/silenthill2-1717063971235.jpg",
+        "https://cdn.ziffstatic.com/adchoices/adchoices.png"
+      ],
+      "date": "2026-10-18T19:55:44.000Z",
+      "summary": "Silent Hill developer Bloober Team wants to make physical versions of its games \"for as long as possible.\" Silent Hill developer Bloober Team wants to make physical versions of its games \"for as long as possible.\" Studio CEO Piotr Babieno opened up about the company's appreciation for physical media and collectibles during an interview with GamesRadar . He started his thoughts by touching on how the gaming landscape and player desires have changed as technology has advanced over the years, explaining that \"we have reached a moment where you can't really do much more\" in terms of visual and auditory fidelity. \"Like, OK, the game can have a slightly higher resolution and maybe better lighting and whatever, but will it make it a more engaging game? I don't think so,\" Babieno said. The CEO for the studio behind the Silent Hill 2 remake and its in-development original Silent Hill remake also talked about how stats show \"the majority of players are playing on hardware which is five, seven years old, if not older.\" He continued, saying, \"But are they less interested in games because of that? I don't think so.\" As AI shapes a new, controversial future in the gaming industry, the Bloober executive seems to be more interested in \"thinking about other senses.\" It's this mindset that the team has carried into its new Nintendo Switch 2-exclusive 2.5D horror game, Onyx: The Dark Group . For this experience, which comes from Bloober subsidiary Broken Mirror Games, it's become about \"putting horror back in your hands.\" \"As humans, we have four other senses, and AI can deliver something for"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "The Best Deals Today: The Adventures of Elliot, Pikmin 4, Mouse: P.I. For Hire, and More",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/best-deals-for-october-18-2026",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2025/07/31/elliot-blog-1-copy-1753970300455.jpg?width=1280&format=jpg&auto=webp&quality=80",
+        "https://assets-prd.ignimgs.com/2025/07/31/elliot-blog-1-copy-1753970300455.jpg",
+        "https://cdn.ziffstatic.com/adchoices/adchoices.png",
+        "https://assets-prd.ignimgs.com/2026/10/18/81z-kt2vorl-sl1500-1792343225082.jpg?width=220&format=jpg&auto=webp&quality=80",
+        "https://assets-prd.ignimgs.com/2026/10/17/pikmin-4-nintendo-switch-digital-57bf55ea-4cfc-479b-8599-16dd2e674b30-87c27d68f0806ba053f32ceed33ea28d-1792262509679.png?width=220&format=jpg&auto=webp&quality=80",
+        "https://assets-prd.ignimgs.com/2025/03/31/doom-blog-1743416962849.jpg?width=220&format=jpg&auto=webp&quality=80",
+        "https://assets-prd.ignimgs.com/2026/10/04/81w5muvnr-l-sl1500-1791147461045.jpg?width=220&format=jpg&auto=webp&quality=80",
+        "https://assets-prd.ignimgs.com/2026/10/18/final-fantasy-vii-rebirth-nintendo-switch-2-game-c242f059-05f7-4f46-9a75-b2c0a97a94c3-5d6c49eac0b9ec64f32e606715d84af7-1792343331172.png?width=220&format=jpg&auto=webp&quality=80"
+      ],
+      "date": "2026-10-18T17:20:53.000Z",
+      "summary": "A new weekend has arrived, and today, you can save big on Pikmin 4, The Adventures of Elliot, Doom: The Dark Ages, Final Fantasy VII Rebirth, Star Wars Zero Company, and more. Check out our top picks for Sunday, October 18, below. The Adventures of Elliot: The Millennium Tales was released this June, and for the first time, you can pick up a copy of the game on sale! Amazon has copies for all platforms discounted to $44.99 today, which is a great price for this action-based HD-2D game. In our 8/10 review , we wrote, \"The Adventures of Elliot: The Millennium Tales isn’t without blemishes, but it’s still a great action-adventure game that continues to prove why the HD-2D art style is among the best around.\" Walmart has digital copies of Pikmin 4 for Nintendo Switch on sale for $39.88 today. This is just in time before next month's release of Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy. If you grab a copy today, you'll be able to score the Switch 2 upgrade pack for $9.99. That beats paying $70 for a copy any day. Fanatical has Doom: The Dark Ages - Premium Edition on sale today for $31.49. This edition packs in the base game, this Summer's Revelations DLC , and a few other bonuses, too. If you have not had a chance to check out id Software's latest, it's hard to beat this deal. The Revelations DLC is a great time. Star Wars Zero Company is one of the biggest sleeper hits of the year, and you can save $12 off a physical copy today at Amazon. In our 9/10 review , we wro"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "Dev Behind Russian Roulette Drinking Game Cancels Steam Demo Plans Following AI Copycat Concerns",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/dev-behind-russian-roulette-drinking-game-cancels-steam-demo-plans-following-ai-copycat-concerns",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/17/drunken-goddess-reflux-1792277336624.png"
+      ],
+      "date": "2026-10-17T23:00:23.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "Battlefield 6 Devs Respond After Players Take Aim at 'Secuty' Typo and Cosmetic With 5 Pistols",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/battlefield-6-devs-respond-after-players-take-aim-at-secuty-typo-and-cosmetic-with-5-pistols",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/17/battlefield-6-season-5-1792272082254.png"
+      ],
+      "date": "2026-10-17T21:27:10.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "The Best Deals Today: Cyberpunk 2077 for Switch 2, Pikmin 4, Star Wars Zero Company, and More",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/best-deals-for-october-17-2026",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2025/06/13/cp-pr-blog-1749817220791.jpg"
+      ],
+      "date": "2026-10-17T18:57:34.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "Captain Price Actor Sends Message to Fans as Call of Duty: Modern Warfare 4 Campaign Praise Rolls in",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/captain-price-actor-sends-message-to-fans-as-call-of-duty-modern-warfare-4-campaign-praise-rolls-in",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/16/ss-6b8f4040a1e923f036e04d9eb21ecb0f866be57e-1920x1080-1792164596496.jpg"
+      ],
+      "date": "2026-10-17T15:52:41.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "We Sat Down with D&D Game Designer James Wyatt to Talk Dungeons & Dragons: World of Warcraft",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/we-sat-down-with-dd-game-designer-james-wyatt-to-talk-dungeons-and-dragons-world-of-warcraft",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/03/342305-cn-copy-1791050958738.jpg"
+      ],
+      "date": "2026-10-17T13:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "[UPDATE] Super Smash Bros. Player Mew2King Responds After Tournament Bans Him Over Bug Bite Concerns",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/super-smash-bros-player-mew2king-banned-from-tournament-after-bug-bites-spark-health-concerns",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/16/smash-bros-player-banned-from-tournament-bug-bites-1792187389080.jpg"
+      ],
+      "date": "2026-10-16T21:54:09.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "‘There Should be a Game Award for Hot Dads’ — Castlevania: Belmont’s Curse Devs Are Fully Aware and Loving the ‘Horny’ Fanart for Their Game",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/there-should-be-a-game-award-for-hot-dads-castlevania-belmonts-curse-devs-are-fully-aware-and-loving-the-horny-fanart-for-their-game",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/16/castlevania-belmonts-curse-devs-made-the-characters-hot-on-purpose-1792184534105.jpg"
+      ],
+      "date": "2026-10-16T21:03:50.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "Call of Duty: Modern Warfare 4 – Captain Price's Fate Explained",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-captain-prices-fate-explained",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/16/ss-6b8f4040a1e923f036e04d9eb21ecb0f866be57e-1920x1080-1792164596496.jpg"
+      ],
+      "date": "2026-10-16T20:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "Ghost of Yotei Sales Lag Behind Tsushima but Are Still Strong on PS5, Analyst Estimates Show",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/ghost-of-yotei-sales-lagging-behind-tsushima-but-still-strong-on-ps5-analyst-estimates-show",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2025/09/25/scwk6j-1758769803399.jpg"
+      ],
+      "date": "2026-10-16T19:59:45.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "IGN",
+      "title": "MTG Darkhold Destiny Arcanum Bundle: What's Inside and Is It Worth The Price Tag?",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.ign.com/articles/mtg-darkhold-destiny-arcanum-bundle-whats-inside",
+      "flair": "",
+      "images": [
+        "https://assets-prd.ignimgs.com/2026/10/16/magic-the-gathering-marvel-darkhold-destiny-arcanum-bundle-1792165923634.jpg"
+      ],
+      "date": "2026-10-16T18:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Steam Week in Review: Steam Next Fest has over 8,000 demos, as worthless vibe coded slop levels up",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/gaming-industry/steam-week-in-review-steam-next-fest-has-over-8-000-demos-as-worthless-vibe-coded-slop-levels-up/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/FrgMgQ2p7MyoQneDwiatAg-1200-80.png",
+        "https://cdn.mos.cms.futurecdn.net/FrgMgQ2p7MyoQneDwiatAg-1920-80.png"
+      ],
+      "date": "2026-10-19T03:00:45.000Z",
+      "summary": "All the interesting Steam facts for the week ending October 18."
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "23 devs teamed up to make a free game of 'innovative yet questionable volume sliders,' and it feels like browser-based WarioWare",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/23-devs-teamed-up-to-make-a-free-game-of-innovative-yet-questionable-volume-sliders-and-it-feels-like-browser-based-warioware/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/59UYYjUSJrXbZ3fRaMdMgd-1920-80.jpg"
+      ],
+      "date": "2026-10-18T22:36:22.000Z",
+      "summary": "Here for a good time and a loud time."
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Dark Souls 2 dataminer shows off massive prototype coliseum level from early development",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/dark-souls/dark-souls-2-dataminer-shows-off-massive-prototype-coliseum-level-from-early-development/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/zaWM99pyEfhLiBr3FV5MsP-1600-80.png",
+        "https://cdn.mos.cms.futurecdn.net/zaWM99pyEfhLiBr3FV5MsP-1920-80.png"
+      ],
+      "date": "2026-10-18T18:48:42.000Z",
+      "summary": "Bigger than the ones in Elden Ring, for what it"
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Leaked AI safety bill from Anthropic only requires government intervention if 50+ injuries or $1 billion are at risk",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/software/ai/leaked-ai-safety-bill-from-anthropic-only-lets-government-act-if-50-deaths-or-usd1-billion-are-on-the-line/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/yLUJefzpgZfJpEoPzUUMXU-1920-80.jpg"
+      ],
+      "date": "2026-10-18T18:44:11.000Z",
+      "summary": "Claude, finish drafting my single-use ray gun which can only vaporize $999 million worth of stuff and/or 49 people."
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "The Outlast Trials' initial playtests went poorly: Designer says 6-year development took 'a f**king long time' and 'a s**t-ton of prototypes'",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/horror/the-outlast-trials-initial-playtests-went-poorly-designer-says-6-year-development-took-a-f-king-long-time-and-a-s-t-ton-of-prototypes/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/wsP8ZYqL3zitGswbKBRwrd-2178-80.jpg",
+        "https://cdn.mos.cms.futurecdn.net/wsP8ZYqL3zitGswbKBRwrd-1920-80.jpg"
+      ],
+      "date": "2026-10-18T17:18:53.000Z",
+      "summary": "Red Barrels co-founder Philippe Morin recently spoke on the trials The Outlast Trials outlasted."
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "No soundtrack does it like Hades 2",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/roguelike/no-soundtrack-does-it-like-hades-2/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/FJ8HPqVqZSy4sUUXgVJFJh-1920-80.png"
+      ],
+      "date": "2026-10-18T17:00:00.000Z",
+      "summary": "I"
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Frozen Trail finally puts the 'raid' in Arc Raiders",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/third-person-shooter/frozen-trail-finally-puts-the-raid-in-arc-raiders/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/AevreNKXsaDy2wzyyA9Fdj-2480-80.jpg",
+        "https://cdn.mos.cms.futurecdn.net/AevreNKXsaDy2wzyyA9Fdj-1920-80.jpg"
+      ],
+      "date": "2026-10-18T16:00:00.000Z",
+      "summary": "The Fallen Emperor and Arc Frigate have me excited for the game"
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/gaming-industry/there-were-a-lot-of-disagreements-across-the-place-former-marathon-director-joe-ziegler-on-leading-bungies-extraction-shooter-playing-path-of-exile-for-3-437-hours-and-why-hell-never-uninstall-kingdom-hearts/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/BDvidK6magBf2nfHxuXNgZ-1920-80.png"
+      ],
+      "date": "2026-10-18T15:00:00.000Z",
+      "summary": "The former game director of both Marathon and Valorant guides us through the games on his PC."
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/horror/clive-barker-says-hes-genuinely-astonished-by-hellraiser-revival-im-proud-as-f-k-at-the-end-result/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/anyCrirHNBqZ4XwjD7nYXe-1920-80.jpg"
+      ],
+      "date": "2026-10-18T12:41:50.000Z",
+      "summary": ""
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Outlast designer says that one playtester was so upset by the horror series they 'ran out of the studio to go cry outside' and didn't return",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/horror/outlast-designer-says-that-one-playtester-was-so-upset-by-the-horror-series-they-ran-out-of-the-studio-to-go-cry-outside-and-didnt-return/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/3FajdGNGZwTo5gEnsspkbC-1920-80.jpg"
+      ],
+      "date": "2026-10-18T11:18:11.000Z",
+      "summary": ""
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Liquid Swords, developer of open-city crime sim Samson, has gone bankrupt following staff claims that they haven't been paid in two months",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/gaming-industry/liquid-swords-developer-of-open-city-crime-sim-samson-has-gone-bankrupt-following-staff-claims-that-they-havent-been-paid-in-two-months/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/c3XaG7583gHQj3hZfsQNXm-1920-80.jpg"
+      ],
+      "date": "2026-10-18T09:50:29.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "PC Gamer",
+      "title": "Metal band Genitorturers claims a Vampire: The Masquerade - Bloodlines remake is coming, getting a dozen crusty nerds way too worked up",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.pcgamer.com/games/rpg/metal-band-genitorturers-allegedly-claims-a-vampire-the-masquerade-bloodlines-remake-is-coming-getting-a-dozen-crusty-nerds-way-too-worked-up/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/VCqXuCa5LDSdzrMj4RK2xA-1920-80.jpg"
+      ],
+      "date": "2026-10-17T21:52:34.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Players on Steam so far seem delighted with Modern Warfare 4's campaign, making it one of the most well-received Call of Dutys in recent history",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-campaign-steam-review-rating",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/modern-warfare-4-campaign-crop-2.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "https://assetsio.gnwcdn.com/modern-warfare-4-campaign-crop-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/modern-warfare-4-campaign-crop-2.jpg?width=570&quality=85&format=jpg&dpr=3&auto=webp",
+        "https://assetsio.gnwcdn.com/IMG_1950_Uy1XomJ.JPG?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/coc4mu.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/modern-warfare-4-dmz-screen-1.jpeg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/modern-warfare-4-dmz-screen-8-crop-1.jpeg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/modern-warfare-dmz-rose-edit.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-19T08:36:43.000Z",
+      "summary": "Modern Warfare 4 may signal Call of Duty's return to form, at least judging by player sentiment on Steam so far. Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides Latest News Sign in for free to manage your site experience. Players on Steam so far seem delighted with Modern Warfare 4's campaign, making it one of the most well-received Call of Dutys in recent history Battlefield 6 devs to fix &#34;Secuty&#34; skin typo, but five-pistol outfit was intentional The PS6's memory and storage alone reportedly cost more than $680 Samson dev Liquid Swords has reportedly gone bankrupt God of War Laufey's £130 Collector Box doesn't come with the game Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has &#34;fallen short&#34; Steam's Achievement Sets beta aims to stop new content breaking your completion status Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting If you click on a link and make a purchase we may receive a small commission. Read our editorial policy . Home News Call of Duty: Modern Warfare 4 (2026) Players on Steam so far seem delighted with Modern Warfare 4's campaign, making it one of the most well-received Call of Dutys in recent history Price is right. Image credit: Infinity Ward, Activision. News by Sherif Saed Senior Contributor Published on Oct. "
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Battlefield 6 devs to fix \"Secuty\" skin typo, but five-pistol outfit was intentional",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/battlefield-6-secuty-typo-five-pistol-skin-devs-respond",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/Screenshot-2026-10-18-at-18.30.22.png?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "https://assetsio.gnwcdn.com/Screenshot-2026-10-18-at-18.30.22.png?width=690&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/Screenshot-2026-10-18-at-18.30.22.png?width=570&quality=85&format=jpg&dpr=3&auto=webp",
+        "https://assetsio.gnwcdn.com/1533038852.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/coa5zt.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/battlefield-6-season-5-vegas-shot-1.jpeg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/Battlefield-6-Official-Multiplayer-Gameplay-Trailer-1-27-screenshot.png?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/battlefield-6-season-3-gameplay-screen-3.jpeg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-18T17:37:38.000Z",
+      "summary": "Battlefield Studios says a typo on a Season 5 skin will be fixed, but the outfit with five pistols was deliberate. Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides Latest News Sign in for free to manage your site experience. Battlefield 6 devs to fix &#34;Secuty&#34; skin typo, but five-pistol outfit was intentional Players on Steam so far seem delighted with Modern Warfare 4's campaign, making it one of the most well-received Call of Dutys in recent history The PS6's memory and storage alone reportedly cost more than $680 Samson dev Liquid Swords has reportedly gone bankrupt God of War Laufey's £130 Collector Box doesn't come with the game Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has &#34;fallen short&#34; Steam's Achievement Sets beta aims to stop new content breaking your completion status Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting If you click on a link and make a purchase we may receive a small commission. Read our editorial policy . Home News Battlefield 6 Battlefield 6 devs to fix &#34;Secuty&#34; skin typo, but five-pistol outfit was intentional Secuty risk. Image credit: EA / @BattlefieldIntel News by Vikki Blake Contributor Published on Oct. 18, 2026, 5:37 p.m. 4 comments Follow Battlefield 6 Prioritise us on Google Battlefield "
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "The PS6's memory and storage alone reportedly cost more than $680",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/ps6-games-calendar.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "https://assetsio.gnwcdn.com/ps6-games-calendar.jpg?width=690&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/ps6-games-calendar.jpg?width=570&quality=85&format=jpg&dpr=3&auto=webp",
+        "https://assetsio.gnwcdn.com/1533038852.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-18T17:10:29.000Z",
+      "summary": "Leaker Kepler_L2 claims the PS6's RAM and NAND alone cost over $680. Sony has said it doesn't intend to sell hardware at significant losses. Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides Latest News Sign in for free to manage your site experience. The PS6's memory and storage alone reportedly cost more than $680 Players on Steam so far seem delighted with Modern Warfare 4's campaign, making it one of the most well-received Call of Dutys in recent history Battlefield 6 devs to fix &#34;Secuty&#34; skin typo, but five-pistol outfit was intentional Samson dev Liquid Swords has reportedly gone bankrupt God of War Laufey's £130 Collector Box doesn't come with the game Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has &#34;fallen short&#34; Steam's Achievement Sets beta aims to stop new content breaking your completion status Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting If you click on a link and make a purchase we may receive a small commission. Read our editorial policy . Home News The PS6's memory and storage alone reportedly cost more than $680 Ram-pant costs. Image credit: Eurogamer News by Vikki Blake Contributor Published on Oct. 18, 2026, 5:10 p.m. 20 comments Prioritise us on Google The PS6's memory and storage reportedly cost more than $6"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Samson dev Liquid Swords has reportedly gone bankrupt",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/liquid-swords-samson-developer-bankrupt",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/ss_c74b6df6643c4b6c0c0e015be9013a4c68fd3deb.1920x1080.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "https://assetsio.gnwcdn.com/ss_c74b6df6643c4b6c0c0e015be9013a4c68fd3deb.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/ss_c74b6df6643c4b6c0c0e015be9013a4c68fd3deb.1920x1080.jpg?width=570&quality=85&format=jpg&dpr=3&auto=webp",
+        "https://assetsio.gnwcdn.com/1533038852.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/coay8a.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-18T15:21:13.000Z",
+      "summary": "Samson studio Liquid Swords is reportedly bankrupt, with almost 30 staff affected by unpaid wages and the state set to compensate them. Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides Latest News Sign in for free to manage your site experience. Samson dev Liquid Swords has reportedly gone bankrupt Battlefield 6 devs to fix &#34;Secuty&#34; skin typo, but five-pistol outfit was intentional The PS6's memory and storage alone reportedly cost more than $680 God of War Laufey's £130 Collector Box doesn't come with the game Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has &#34;fallen short&#34; Steam's Achievement Sets beta aims to stop new content breaking your completion status Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting Analogue is reviving its Mega SG and Super Nt consoles, and they'll play all your old Sega and Nintendo cartridges with some modern enhancements If you click on a link and make a purchase we may receive a small commission. Read our editorial policy . Home News Samson Samson dev Liquid Swords has reportedly gone bankrupt Around 30 staff are affected, and the state will compensate them. Image credit: Liquid Swords News by Vikki Blake Contributor Published on Oct. 18, 2026, 3:21 p.m. 7 comments Follow Samson Prioritise us on Google "
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "God of War Laufey's £130 Collector Box doesn't come with the game",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/god-of-war-laufey-collector-box-no-game",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/A-peaceful-looking-Faye-in-God-of-War-Laufey.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "https://assetsio.gnwcdn.com/A-peaceful-looking-Faye-in-God-of-War-Laufey.jpg?width=690&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/A-peaceful-looking-Faye-in-God-of-War-Laufey.jpg?width=570&quality=85&format=jpg&dpr=3&auto=webp",
+        "https://assetsio.gnwcdn.com/1533038852.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://i.ytimg.com/vi/Dwi8lWddX_g/hqdefault.jpg",
+        "https://assetsio.gnwcdn.com/GOWL_Hero-1-contents.webp?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/coc5rc.jpg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp",
+        "https://assetsio.gnwcdn.com/god-of-war-laufey-reveal-screen-6.jpeg?width=2048&height=2048&fit=bounds&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-18T14:47:02.000Z",
+      "summary": "God of War Laufey's £129.99 Collector Box has a light-up Faye statue, an Oracle Deck, and a mini artbook, but the game is sold separately. Go Support us Sign in / Create account Latest PC PlayStation Xbox Nintendo Tech News Reviews Features Guides Latest News Sign in for free to manage your site experience. God of War Laufey's £130 Collector Box doesn't come with the game Players on Steam so far seem delighted with Modern Warfare 4's campaign, making it one of the most well-received Call of Dutys in recent history Battlefield 6 devs to fix &#34;Secuty&#34; skin typo, but five-pistol outfit was intentional The PS6's memory and storage alone reportedly cost more than $680 Samson dev Liquid Swords has reportedly gone bankrupt Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has &#34;fallen short&#34; Steam's Achievement Sets beta aims to stop new content breaking your completion status Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting If you click on a link and make a purchase we may receive a small commission. Read our editorial policy . Home News God of War Laufey God of War Laufey's £130 Collector Box doesn't come with the game Faye-ly pricey. Image credit: Sony News by Vikki Blake Contributor Published on Oct. 18, 2026, 2:47 p.m. 13 comments Follow God of War Laufey Prioritise us on Google God of War Laufey's C"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "In the age of AI, one man spent years squeezing an entire museum onto a Game Boy - Why? For the most human of reasons",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/game-boy-musuem-cartridge-marcel-pflug",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/game-boy-museum-(1).jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-18T09:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/vampire-the-masquerade-bloodlines-remaster-rumour",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/0000001155.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T18:28:40.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Sega pulls Total War: Shogun 2 - Complete Edition from sale amid AI accusations, admitting it has \"fallen short\"",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/total-war-shogun-2-complete-edition-pulled-from-sale",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/ss_e8ac96fa71486d51feba7f79f1b226d52be4b016.1920x1080.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T17:28:08.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Steam's Achievement Sets beta aims to stop new content breaking your completion status",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/steam-achievement-sets-beta",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/10d318260b61ca375da8e210197b7eae40665e30.png?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T13:12:01.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Gameplay footage emerges of reportedly cancelled Assassin's Creed game Destiny",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/assassins-creed-destiny-cancelled-gameplay-footage-timi-tencent",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/9c3104985e567ab2095613a493ebbe84.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T12:39:42.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "The Blood of Dawnwalker Update 1.1 adds an easier Story mode, a respec potion and animal petting",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/blood-of-dawnwalker-update-1-1-story-mode-pet-animals",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/dawnwalker-artwork-blood.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T11:18:21.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Eurogamer",
+      "title": "Art of Rally follow-up Over the Hill's biggest success is finding a way to be a driving game that asks you to take it slow",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.eurogamer.net/over-the-hill-now-playing",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/over-the-hill-37.png?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T09:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "Tenebris Somnia Blends 2D Visuals With Live-Action Horror Scenes, And It’s Already On Sale At Launch",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/tenebris-somnia-blends-2d-visuals-with-live-action-horror-scenes-and-its-already-on-sale-at-launch/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/fanatical-tenebris-somnia-discount.jpg?w=300"
+      ],
+      "date": "2026-10-18T12:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "All The Records GTA 6 Will Break, We Think",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/all-the-records-gta-6-will-break-we-think/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/DreQuan_Priest_01.jpg?w=300"
+      ],
+      "date": "2026-10-16T20:27:22.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "You Can Play WoW: Forever For Free Next Week (But There&#8217;s A Catch)",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/you-can-play-wow-forever-for-free-next-week-but-theres-a-catch/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/WoW-Forever-Play-For-Free-Stress-Test.jpg?w=300"
+      ],
+      "date": "2026-10-16T18:45:44.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "This Espresso Machine Can Run Doom",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/this-espresso-machine-can-run-doom/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/05/Doom.jpg?w=300"
+      ],
+      "date": "2026-10-16T18:28:36.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "Shrek 2 Remaster Leaks, Looks Amazing And I Need It Now",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/shrek-2-remaster-leaks-looks-amazing-and-i-need-it-now/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/shrek2.jpg?w=300"
+      ],
+      "date": "2026-10-16T18:21:13.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "WoW: Forever Just Changed The Math On What Race To Play In A Big Way",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/wow-forever-just-changed-the-math-on-what-race-to-play-in-a-big-way/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/WoW-Forever-Racial-Ability-Changes.jpg?w=300"
+      ],
+      "date": "2026-10-16T18:01:39.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "A Comically On-The-Nose New Title Has Me Even More Excited For This Upcoming Tactics Game",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/a-comically-on-the-nose-new-title-has-me-even-more-excited-for-this-upcoming-tactics-game/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/australia.jpg?w=300"
+      ],
+      "date": "2026-10-16T15:38:26.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "Call Of Duty: MW4&#8217;s Campaign Launches Today, Please Don&#8217;t Spoil It For Others",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/call-of-duty-mw4s-campaign-launches-today-please-dont-spoil-it-for-others/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/mw4campaign-Large.jpeg?w=300"
+      ],
+      "date": "2026-10-16T15:24:46.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "The Blood Of Dawnwalker&#8217;s Next Update Will Let You Erase Your Mistakes And Pet The Dog",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/the-blood-of-dawnwalkers-next-update-will-let-you-erase-your-mistakes-and-pet-the-dog/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/ss_1af5d14d9b6a36c14eae3bebf56c0e0f63235633.1920x1080.jpg?w=300"
+      ],
+      "date": "2026-10-16T15:09:53.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "Next Red Dead Launching By 2027 Or 2028 &#8220;May Not Be Unreasonable,&#8221; Bank Says, But It Definitely Is",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/next-red-dead-launching-by-2027-or-2028-may-not-be-unreasonable-bank-says-but-it-definitely-is/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/RDR2-Large.jpeg?w=300"
+      ],
+      "date": "2026-10-16T15:07:49.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "Street Fighter Could Be In For A Rough First Round At The Box Office",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/street-fighter-movie-box-office-results/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/04/Street-Fighter.jpg?w=300"
+      ],
+      "date": "2026-10-15T14:31:35.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GameSpot",
+      "title": "This Anime Stalker Russian Roulette Game Is Afraid AI Copycats Will Steal Its Ideas",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamespot.com/articles/this-anime-stalker-russian-roulette-game-is-afraid-ai-copycats-will-steal-its-ideas/",
+      "flair": "",
+      "images": [
+        "https://www.gamespot.com/wp-content/uploads/2026/10/Drunken-Goddess-Reflux.jpg?w=300"
+      ],
+      "date": "2026-10-16T13:52:33.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "9 Years Later, The Simpsons' Controversial Character Officially Returns",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/the-simpsons-apu-returns-sunil-malhotra-hank-azaria/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19608464/simpsons_apu_trans_NvBQzQNjv4BqZavxgBVD_I8nuYCoxkvuzNhRx2sQucXPFC0Ez2NtBY8.jpg?w=1200&h=675&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19608464/simpsons_apu_trans_NvBQzQNjv4BqZavxgBVD_I8nuYCoxkvuzNhRx2sQucXPFC0Ez2NtBY8.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19608464/simpsons_apu_trans_NvBQzQNjv4BqZavxgBVD_I8nuYCoxkvuzNhRx2sQucXPFC0Ez2NtBY8.jpg?&fit=crop&w=1200&h=675",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/the-simpsons-john-wick.jpg?q=49&fit=crop&w=220&h=124&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/01/david-duchovny-and-gillian-anderson-in-the-x-files-season-11.jpg?q=49&fit=crop&w=120&h=80&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/wolverine.JPG?q=49&fit=crop&w=120&h=80&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/billie-piper-doctor-who.jpg?q=49&fit=crop&w=292&h=384&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/saturday-night-live-snl-gta-zelda-sketch.jpg?q=49&fit=crop&w=292&h=384&dpr=2"
+      ],
+      "date": "2026-10-19T08:54:07.000Z",
+      "summary": "Apu gets his homecoming in an episode that &#039;feels like a reclamation&#039; Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Francesco Cacciatore Published Oct 19, 2026, 4:54 AM EDT Francesco is an editor with a background in academic research, journalism, and content strategy, specializing in entertainment news and curation. He works across all of Polygon's verticals, specializing in tabletop games, with a focus on D&D and Magic. News Apu fully returns to The Simpsons in a &#039;homecoming&#039; episode Image: Fox Television The Simpsons Sign in to your Polygon.com account Add Us Add on Google Preferred Source Google Discover Summary Generate a summary of this story Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap In January 2020, Hank Azaria stepped down from voicing one of the most iconic characters on The Simpsons , Kwik-E-Mart owner Apu Nahasapeemapetilon. The actor and the show's writers ag"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "Tom Cruise's 10/10 War Action Epic Is About to Say Goodbye to HBO Max",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/tom-cruise-the-last-samurai-leaving-hbo-max-october-2026/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-last-samurai-tom-cruise.jpg?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-last-samurai-tom-cruise.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-last-samurai-tom-cruise.jpg?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-last-samurai-2.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-last-samurai-1.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-last-samurai-4.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/the-last-samurai-3.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/ac-black-flag-resynced-edward-kenway.jpg?q=49&fit=crop&w=120&h=80&dpr=2"
+      ],
+      "date": "2026-10-19T08:00:19.000Z",
+      "summary": "Watch this classic war movie before it leaves HBO Max at the end of October Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Ryan Epps Published Oct 19, 2026, 4:00 AM EDT What to Watch Watch this classic war movie before it leaves HBO Max at the end of October Image: Warner Bros. Sign in to your Polygon.com account Add Us Add on Google Preferred Source Google Discover Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap Tom Cruise has built a career out of playing larger-than-life characters, but some of his best performances are when he delves into the more vulnerable people beneath the movie-star bravado. Days of Thunder filters the story of a hotshot NASCAR driver through the humbling process of learning to trust someone, while Jerry Maguire finds a sports agent in the throes of learning that success means little without genuine human connection. Even Tropic Thunder , for all its outrageous comedy"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "Netflix's Sci-Fi Cyberpunk Sleeper Hit Becomes a True Masterpiece in Stellar New Season",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/cyberpunk-edgerunners-2-review/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/er2_talia_3.png?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/er2_talia_3.png",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/er2_talia_3.png?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/er2_weak_1.png?q=49&fit=contain&w=1300&h=844&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/er2_weak_2.png?q=49&fit=contain&w=1300&h=844&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/er2_weak_3.png?q=49&fit=contain&w=1300&h=844&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/cyberpunk__edgerunners_2_mt.png?q=49&fit=contain&w=1300&h=844&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/cyberpunk__edgerunners_2_weak.png?q=49&fit=contain&w=1300&h=844&dpr=2"
+      ],
+      "date": "2026-10-19T07:01:18.000Z",
+      "summary": "An extraordinary ensemble and dazzling animation give the Netflix sequel a warmer, more hopeful heart Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard By&nbsp; Corey Plante Published Oct 19, 2026, 3:01 AM EDT An extraordinary ensemble and dazzling animation give the Netflix sequel a warmer, more hopeful heart Image: Netflix / CD Projekt Red Add Polygon.com on Google Add Follow Add Us Add on Google Preferred Source Google Discover Summary Generate a summary of this story Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap Night City makes it easy to confuse becoming a legend with having a life worth living. Mercenaries replace their flesh with increasingly powerful chrome, take gigs they have no business surviving, and hope somebody remembers their name after it all inevitably goes to hell. The first season of Netflix's Cyberpunk: Edgerunners made a devastating romance out of that bargain. Cyberpunk: Edgerunners 2 , which continues the anthology series on Oct. 20, find"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "The Best 'Peanuts' Great Pumpkin Comic Strip Came Out 2 Years Before the Famous TV Special",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/peanuts-best-great-pumpkin-comic-strip-linus/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/vs-vimeo-itsthegreatpumpkincharliebrownvideosmoviesonvimeo-22-55.jpg?w=1200&h=675&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/vs-vimeo-itsthegreatpumpkincharliebrownvideosmoviesonvimeo-22-55.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/vs-vimeo-itsthegreatpumpkincharliebrownvideosmoviesonvimeo-22-55.jpg?&fit=crop&w=1200&h=675",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/vs-vimeo-itsthegreatpumpkincharliebrownvideosmoviesonvimeo-4-24.jpg?q=70&fit=crop&w=640&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/screen-shot-2026-10-14-at-2-07-28-pm.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/screen-shot-2026-10-14-at-2-08-58-pm.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/screen-shot-2026-10-14-at-10-49-44-am.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/screen-shot-2026-10-14-at-10-51-31-am.jpg?q=70&fit=crop&w=825&dpr=1"
+      ],
+      "date": "2026-10-19T04:00:26.000Z",
+      "summary": "It’s Charles Schulz at his very best. Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Brian VanHooker Published Oct 19, 2026, 12:00 AM EDT Opinion It’s Charles Schulz at his very best. Image: Charles Schulz Add Us Add on Google Preferred Source Google Discover Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap In 1966, CBS debuted the now-classic television special, It’s the Great Pumpkin, Charlie Brown . In it, all the kids in the Peanuts gang take part in typical Halloween activities, including trick-or-treating and pumpkin-carving — except for Linus. Instead, Linus is preparing for the arrival of a mythical being known as the “Great Pumpkin.” As Linus explains, “Each year, the Great Pumpkin rises out of the pumpkin patch that he thinks is the most sincere,” then he distributes toys to the children waiting for him. Linus spends the special writing letters to"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "31 Years Later, Calvin and Hobbes' Scariest Comic Is Still a Controversial Classic",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/calvin-hobbes-halloween/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-treasure-everywhere.jpg?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-treasure-everywhere.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-treasure-everywhere.jpg?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-halloween-1993.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-halloween-1995.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-june-1-1988.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/calvin-and-hobbes-february-20-1994.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/stardew-valley-cozy-games-influence-changing.jpg?q=49&fit=crop&w=120&h=80&dpr=2"
+      ],
+      "date": "2026-10-19T03:00:18.000Z",
+      "summary": "Ouch, my solar plexus Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Thomas Hindmarch Published Oct 18, 2026, 11:00 PM EDT Analysis The &#039;90s are back and they&#039;re actually somewhat traumatizing Calvin invents his Cerebral Enhance-a-Tron, from the back page of&nbsp; There's Treasure Everywhere&nbsp; (1996) Source: Bill Watterson/Simon and Schuster Add Us Add on Google Preferred Source Google Discover Jump links Jump Links Rob Liefeld's Calvin and Hobbes Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap Daily newspaper comics usually make a point of being seasonal. It's a rare gag-a-day strip that doesn't make sure to touch upon all the major holidays, particularly Valentine's Day, Halloween, Thanksgiving, and Christmas. When you've got to get a joke out there once a day, every day, you take inspiration wherever you can find it. On a H"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "Pokémon Officially Returns to Galar in 2027 for New Release",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/pokemon-sirfetchd-pichu-animated-series-streaming-disney-plus-2027/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/poke-mon-tales_-the-misadventures-of-sirfetch-d-pichu-_-teaser-trailer-0-11-screenshot.jpg?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/poke-mon-tales_-the-misadventures-of-sirfetch-d-pichu-_-teaser-trailer-0-11-screenshot.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/poke-mon-tales_-the-misadventures-of-sirfetch-d-pichu-_-teaser-trailer-0-11-screenshot.jpg?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/misadventures_of_sirfetch_d_pichu_1.jpg?q=70&fit=contain&w=750&h=422&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/misadventures_of_sirfetch_d_pichu_3.jpg?q=49&fit=contain&w=750&h=422&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/misadventures_of_sirfetch_d_pichu_2.jpg?q=49&fit=contain&w=750&h=422&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/misadventures_of_sirfetch_d_pichu_4.jpg?q=49&fit=contain&w=750&h=422&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/misadventures_of_sirfetch_d_pichu_5.jpg?q=49&fit=contain&w=750&h=422&dpr=2"
+      ],
+      "date": "2026-10-19T02:51:19.000Z",
+      "summary": "Aardman&#039;s Pokémon Tales: The Misadventures of Sirfetch’d & Pichu arrives in 2027 Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Michael McWhertor Published Oct 18, 2026, 10:51 PM EDT Michael McWhertor is a New York-based journalist and editor with more than 20 years of experience covering games, industry events, technology, movies, and TV. News Aardman&#039;s Pokémon Tales: The Misadventures of Sirfetch’d & Pichu arrives in 2027 Image: Aardman Animations/The Pok&eacute;mon Company Sign in to your Polygon.com account Add Us Add on Google Preferred Source Google Discover Summary Generate a summary of this story Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap Disney and Pokémon are teaming up for a new streaming series coming to Disney Plus in 2027. Disney and The Pokémon Company announced Friday that the stop-motion animated adventure series Pokémon Tales: The Misadventures of Sirfetch'd & Pichu is n"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "10 NES Games That Are Still Worth Playing From Start to Finish",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/best-nes-games/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6823649/nes-classic-trailer-screencap_1920.jpg?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6823649/nes-classic-trailer-screencap_1920.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6823649/nes-classic-trailer-screencap_1920.jpg?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/13603318/maxresdefault_2_aanp.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11688933/castlevania_3.png?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/zelda-dangerous-alone.png?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/steam-crop-portrait-4x5.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/11688915/dragon_warrior_4.png?q=70&fit=crop&w=825&dpr=1"
+      ],
+      "date": "2026-10-19T02:34:47.000Z",
+      "summary": "More than four decades later Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Jason Venter Published Oct 18, 2026, 10:34 PM EDT Polygon Lists More than four decades later Image: Nintendo Sign in to your Polygon.com account Add Us Add on Google Preferred Source Google Discover Summary Generate a summary of this story Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap On Oct. 18, 1985, Nintendo released the Nintendo Entertainment System in North America alongside a limited selection of games like Super Mario Bros. and Excitebike . Within a few years, it had a library of hundreds of titles, proving that rumors of the video game industry’s death throughout the early ‘80s were greatly exaggerated. Today, many of those early games feel like antiques. They’re not nearly as memorable as they once were, with so many generations of newer software to choose from."
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "9 Best DLCs That Were Even Better Than the Base Game",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/best-dlcs-video-games/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23377462/The_Witcher_3_Wild_Hunt_Hearts_of_Stone_Nobody_puts_Geralt_in_a_corner_RGB.jpeg?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23377462/The_Witcher_3_Wild_Hunt_Hearts_of_Stone_Nobody_puts_Geralt_in_a_corner_RGB.jpeg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23377462/The_Witcher_3_Wild_Hunt_Hearts_of_Stone_Nobody_puts_Geralt_in_a_corner_RGB.jpeg?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/15390941/fallout-new-vegas-screenshot_1024.0.1488435326.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24569461/Mass_Effect__Legendary_Edition_20210706003722.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/10224473/sr4_gat.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/2738360/2K_BL2_TTADK_Ambush.1369742611.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/steam-crop-portrait-4x5.jpg"
+      ],
+      "date": "2026-10-19T02:24:58.000Z",
+      "summary": "When the main campaign was just the warm-up Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Rebecca Corgan Published Oct 18, 2026, 10:24 PM EDT Polygon Lists When the main campaign was just the warm-up Image: CD Projekt Red Sign in to your Polygon.com account Add Us Add on Google Preferred Source Google Discover Summary Generate a summary of this story Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap When you pick up downloadable content for a game, generally, you’re expecting more of the same experience: a few extra hours, some new gear, perhaps a boss fight the base game didn’t have room for. What if, instead of new outfits and a handful of fetch quests, a DLC decided to crown you the new god of madness? What if it dropped you into hell to stop a president’s wedding, or handed the entire story over to a teenager narrating her own homebrew Dungeons & Dragons camp"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "10 Near-Perfect PS4 Games Nobody Played",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/best-underrated-ps4-games/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/anthony-rlvi1td5bm4-unsplash.jpg?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/anthony-rlvi1td5bm4-unsplash.jpg",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/anthony-rlvi1td5bm4-unsplash.jpg?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/2707758/DT_HAMLET.1361476240.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/13592300/GRAVITY_RUSH__2_20170102114723.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/summon-night-6-lost-borders-combat-screenshot.jpg?q=70&fit=crop&w=825&dpr=1",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19082885/sc6wfb.jpeg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/steam-crop-portrait-4x5.jpg"
+      ],
+      "date": "2026-10-19T02:01:27.000Z",
+      "summary": "It&#039;s never too late Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Jason Venter Published Oct 18, 2026, 10:01 PM EDT Polygon Lists Beautiful gems hidden in plain sight Photo: Anthony via Unsplash Sign in to your Polygon.com account Add Us Add on Google Preferred Source Google Discover Summary Generate a summary of this story Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap The PlayStation 4 launched in North America first on Nov. 15, 2013, before coming to Japan and the rest of the world several months later. Since then, it has maintained a steady stream of game releases across numerous genres, with more titles still on the way, even six years out from the launch of PS5. It’s clearly winding down, though, as Sony focuses on plans for new hardware and a disc-less future . That makes right now the perfect time to take a look at 10 near-perfe"
+    },
+    {
+      "kind": "site",
+      "source": "Polygon",
+      "title": "Resident Evil Director Is Already Thinking Sequels",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.polygon.com/resident-evil-2026-sequel-zach-cregger/",
+      "flair": "",
+      "images": [
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/10-resident-evil.JPG?w=1600&h=900&fit=crop",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/10-resident-evil.JPG",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/10-resident-evil.JPG?&fit=crop&w=1600&h=900",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/df-00416.jpg?q=49&fit=crop&w=825&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/polygon-2026-fall-preview-interview-zach-cregger-resident-evil-4.jpg?q=49&fit=crop&w=220&h=124&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/sharedimages/2026/09/resident-evil-poster.jpg?q=50&fit=crop&w=32&h=32&dpr=1.5",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/bigwalk_screenshot_jun26_01.jpeg?q=49&fit=crop&w=120&h=80&dpr=2",
+        "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/05/star-wars-the-mandalorian-and-grogu-anzellans.jpg?q=49&fit=crop&w=120&h=80&dpr=2"
+      ],
+      "date": "2026-10-19T01:43:18.000Z",
+      "summary": "&#039;I can&#039;t help myself,&#039; Zach Cregger says Zelda GTA 6 Guides Pokémon Like Follow Followed Thread More Action Add Follow Newsletter Sign in Sign in Now Close What To Play What to Watch Gaming Submenu News Reviews Previews Features Entertainment Submenu News Reviews Features Pick a genre Submenu Anime Horror Sci-Fi Fantasy Guides Submenu Subnautica 2 Forza Horizon 6 Pokémon Go All Guides Videos Sign in Newsletter Add Polygon.com on Google Add Follow Array Copyright &copy; 2026 www.polygon.com --> Close Like Follow Followed Thread Link copied to clipboard Add Polygon.com on Google Add Follow By&nbsp; Michael McWhertor Published Oct 18, 2026, 9:43 PM EDT Michael McWhertor is a New York-based journalist and editor with more than 20 years of experience covering games, industry events, technology, movies, and TV. News &#039;I can&#039;t help myself,&#039; Zach Cregger says Image: Sony Resident Evil Sign in to your Polygon.com account Add Us Add on Google Preferred Source Google Discover Summary Generate a summary of this story Like Like follow Follow followed Followed Thread Log in Here is a fact-based summary of the story contents: Try something different: Show me the facts Explain it like I’m 5 Give me a lighthearted recap Weapons director Zach Cregger took a very different approach with his new adaptation of Resident Evil . Rather than adapting the characters and narrative of Capcom's survival-horror game franchise, Cregger is instead translating what it feels like to exist in one of Resident Evil 's worst-case scenarios"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Call of Duty: Modern Warfare 4 pays tribute to late COD co-creator and Infinity Ward co-founder Vince Zampella",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/call-of-duty-modern-warfare-4-pays-tribute-to-late-cod-co-creator-and-infinity-ward-co-founder-vince-zampella/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2025/12/Vince-Zampella.jpg"
+      ],
+      "date": "2026-10-19T08:48:49.000Z",
+      "summary": "Zampella worked on COD up to 2009, and was in charge of rival series Battlefield when he died… Open main menu News Reviews Features Guides PlayStation Xbox Nintendo PC Gaming Mobile Login Blood of Dawnwalker guides Star Fox: All alternate routes New Game Release Dates Search VGC Login with Patreon First for Video Game News Follow VGC Call of Duty: Modern Warfare 4 pays tribute to late COD co-creator and Infinity Ward co-founder Vince Zampella Zampella worked on COD up to 2009, and was in charge of rival series Battlefield when he died Video Game News 19th Oct 2026 / 9:48 am Posted by Chris Scullion Call of Duty: Modern Warfare 4 pays tribute to Vince Zampella in its credits. As noted on X by Geoff Keighley , the game&#8217;s credits include a separate screen dedicated to the late game designer, which simply says: &#8220;In memoriam – Vince Zampella .&#8221; Zampella – who had been put in charge of the struggling Battlefield series and led its comeback with Battlefield 6 – died in a car crash in December 2025 , two months after the game&#8217;s release. Although he hadn&#8217;t been involved in the Call of Duty series for more than a decade and a half, Zampella was instrumental in not only the creation of Call of Duty itself, but also Modern Warfare 4 studio Infinity Ward . Zampella started his career as a graphic designer in the 90s, eventually working for the likes of Atari and Sega , but his big break came when he was the lead designer of the critically acclaimed Electronic Arts first-person shooter, Medal of Honor: Allied Assault. After its release, Zampella co-foun"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Konami boss says AI can’t replace the human chemistry behind great games",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/konami-boss-says-ai-cant-replace-the-human-chemistry-behind-great-games/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2026/08/Metal-Gear-Solid-Collection-Vol-2-13.jpg"
+      ],
+      "date": "2026-10-18T12:46:39.000Z",
+      "summary": "Konami president argues creators matter more than AI for making innovative games… Open main menu News Reviews Features Guides PlayStation Xbox Nintendo PC Gaming Mobile Login Blood of Dawnwalker guides Star Fox: All alternate routes New Game Release Dates Search VGC Login with Patreon First for Video Game News Follow VGC Konami boss says AI can’t replace the human chemistry behind great games Konami president argues creators matter more than AI for making innovative games Video Game News 18th Oct 2026 / 1:46 pm Posted by Andy Robinson Konami’s games business president has downplayed generative AI&#8217;s likely impact on the business, arguing that “people and creators” matter more to game development. Hideki Hayakawa, the president of Konami Digital Entertainment, made the comments in the company’s new business report, which summarises its strategies across various fields of entertainment. Notably, the digital segment (translated by Automaton ) covers the Metal Gear and Silent Hill publisher’s outlook on the potential impact of generative AI on the games industry. Hayakawa argues that although the general consensus is that generative AI will significantly lower the entry barrier to game development, he believes this won’t bring significant change to the market environment, because “entry barriers have already been lowered by the advancements of generic game engines and the spread of UGC (user generated content).” He added: “Even if AI use does lead to improvements in production efficiency, I believe that the most important factors in producing entertaining"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "PlayStation 6&#8217;s memory costs alone exceed $680 per console, it&#8217;s claimed",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/playstation-6s-memory-costs-alone-exceed-680-per-console-its-claimed/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2024/09/playstation-30th-annivesary-pre-orders.jpg"
+      ],
+      "date": "2026-10-18T12:10:55.000Z",
+      "summary": "Hardware insider suggests next-gen costs could well cost more than $1,000… Open main menu News Reviews Features Guides PlayStation Xbox Nintendo PC Gaming Mobile Login Blood of Dawnwalker guides Star Fox: All alternate routes New Game Release Dates Search VGC Login with Patreon First for Video Game News Follow VGC PlayStation 6&#8217;s memory costs alone exceed $680 per console, it&#8217;s claimed Hardware insider suggests next-gen costs could well cost more than $1,000 Video Game News 18th Oct 2026 / 1:10 pm Posted by Andy Robinson Sony’s PlayStation 6 storage and memory components alone will cost the company “over $680” per console, it’s claimed, which could mean a big price tag for the next-gen console. That’s according to KeplerL2, an insider who has accurately reported on AMD hardware in the past. According to a post on the NeoGAF forum , “RAM + NAND alone” will cost over $680 per console for PlayStation 6. The insider adds that these components cost far less when Sony finalized the console&#8217;s designs. In recent years, the cost of memory and storage has surged, due to shortages driven by the demands of AI data centers. Across the board, consumer electronics prices have risen, with a PS5 now costing over 50% more ($200 / £200) than at launch. The global component shortage has almost certainly affected Sony’s plans for PlayStation 6, which was once claimed to be targeting a launch as soon as next year . Xbox has already announced a next-gen console is in development, codenamed Helix, and warned that it needs to consider new business models t"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Samson developer Liquid Swords is facing bankruptcy",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/samson-developer-liquid-swords-is-facing-bankruptcy/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2026/04/samson.jpg"
+      ],
+      "date": "2026-10-18T11:17:34.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Ken Kutaragi ‘understands’ why PlayStation fans don’t want to give up physical games",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/ken-kutaragi-understands-why-playstation-fans-dont-want-to-give-up-physical-games/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2026/10/IMG_7419.jpeg"
+      ],
+      "date": "2026-10-16T11:59:45.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Podcast: Zelda: Ocarina of Time remake impressions &#038; a chat with Control Resonant actor",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/blog/podcast/podcast-zelda-ocarina-of-time-remake-impressions-a-chat-with-control-resonant-actor/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2026/10/pod-192.jpg"
+      ],
+      "date": "2026-10-16T11:42:41.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Former Overwatch director Jeff Kaplan says he hasn&#8217;t played or searched for it since leaving Blizzard five years ago",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/former-overwatch-director-jeff-kaplan-says-he-hasnt-played-or-searched-for-it-since-leaving-blizzard-five-years-ago/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2019/03/Capture-5.png"
+      ],
+      "date": "2026-10-16T11:40:42.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Steam is introducing Achievement Sets, designed to improve the achievement earning experience",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/steam-is-introducing-achievement-sets-designed-to-improve-the-achievement-earning-experience/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2025/04/steam-logo.jpg"
+      ],
+      "date": "2026-10-16T10:42:54.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "Footage from a reportedly cancelled Assassin&#8217;s Creed game set in China has leaked",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2023/06/assassins-creed-codename-jade.jpg"
+      ],
+      "date": "2026-10-16T09:35:08.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "VGC",
+      "title": "COD Modern Warfare 4 will &#8216;close this chapter and launch a new one&#8217; for the series, Activision says",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.videogameschronicle.com/news/cod-modern-warfare-4-will-close-this-chapter-and-launch-a-new-one-for-the-series-activision-says/",
+      "flair": "",
+      "images": [
+        "https://www.videogameschronicle.com/files/2026/10/cod-modern-warfare-4.jpg"
+      ],
+      "date": "2026-10-16T08:53:47.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "The Sunday Papers",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/the-sunday-papers-832",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/the-sunday-papers-big.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-18T10:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "Rain98 is a blue-hued, pre-Y2K, Serial Experiments Lain inspired visual novel about time travelling to the past to end the world",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/rain98-is-a-blue-hued-pre-y2k-serial-experiments-lain-inspired-visual-novel-about-time-travelling-to-the-past-to-end-the-world",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/rain98.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T21:50:37.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "Black & White 3 doesn't sound like it's ever going to happen, but good ole overpromising Peter Molyneux may have let slip about a remaster of the original",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/black-white-3-doesnt-sound-like-its-ever-going-to-happen-but-good-ole-overpromising-peter-molyneux-may-have-let-slip-about-a-remaster-of-the-original",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/black-and-white_irNHIDY.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T20:29:12.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "RimWorld meets Moebius-esque roguelite colony sim Trailblazers: Into The March welcomes you aboard its hulking landships with a chonky-sounding demo",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/rimworld-meets-moebius-esque-roguelite-colony-sim-trailblazers-into-the-march-welcomes-you-aboard-its-hulking-landships-with-a-chonky-sounding-demo",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/trailblazers-into-the-march.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T19:07:41.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "As too much of the industry embrace their own death through genAI, Konami say it's real people that are most important for making good games",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/as-too-much-of-the-industry-embrace-their-own-death-through-genai-konami-say-its-real-people-that-are-most-important-for-making-good-games",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/silent-hill-2-remake-review-6.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T17:04:18.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "Oh dear, half a year after launching Samson, Swedish developer Liquid Swords have filed for bankruptcy",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/oh-dear-half-a-year-after-launching-samson-swedish-developer-liquid-swords-have-filed-for-bankruptcy",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/samson-liquid-swords-debt-racer-brawler-01.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T15:58:54.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "What are we all playing this weekend?",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-404",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/weekend-magic.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-17T07:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "Nonolith traps you in a living maze and challenges you to find hidden terrain magic using good old copy-paste",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/nonolith-traps-you-in-a-living-maze-and-challenges-you-to-find-hidden-terrain-magic-using-good-old-copy-paste",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/nonolith.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-16T17:44:15.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "We have reached a new threshold in genAI gloom, with a game dev cancelling a demo for fear of copycats ripping them off before release",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/we-have-reached-a-new-threshold-in-genai-gloom-with-a-game-dev-cancelling-a-demo-for-fear-of-copycats-ripping-them-off-before-release",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/Drunken-Goddess-Reflex.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-16T16:50:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "\"We were wrong\": Wardogs devs end Season 2's team-specific cash and XP bonus experiment after a single, tumultuous day",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/we-were-wrong-wardogs-devs-end-season-2s-team-specific-cash-and-xp-bonus-experiment-after-a-single-tumultuous-day",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/Wardogs-screenshot-(4).jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-16T16:30:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "The Blood of Dawnwalker's update 1.1 adds a \"forgiving\" difficulty setting, but I think I'll find it hard to forgive its introduction of \"directional animal petting\"",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/the-blood-of-dawnwalkers-update-11-adds-a-forgiving-difficulty-setting-but-i-think-ill-find-it-hard-to-forgive-its-introduction-of-directional-animal-petting",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/the-blood-of-dawnwalker-review-03.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-16T16:21:53.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "Rock Paper Shotgun",
+      "title": "The creator of last year's cult hit RPG The Necromancer's Tale is back with The Lich Wars, a storybook RPG that follows 30 years of undead botheration",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.rockpapershotgun.com/the-creator-of-last-years-cult-hit-rpg-the-necromancers-tale-is-back-with-the-lich-wars-a-storybook-rpg-that-follows-30-years-of-undead-botheration",
+      "flair": "",
+      "images": [
+        "https://assetsio.gnwcdn.com/unnamed(3)_AMHotxZ.jpg?width=690&quality=85&format=jpg&auto=webp"
+      ],
+      "date": "2026-10-16T15:45:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "Red Guardian actor denies giving away a big Avengers: Doomsday spoiler, and in the process teases a different one",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/entertainment/marvel-movies/red-guardian-actor-denies-giving-away-a-big-avengers-doomsday-spoiler-and-in-the-process-teases-a-different-one/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/FVzSFx2zn3tuxX9qTJoCn4-1920-80.jpg"
+      ],
+      "date": "2026-10-19T09:33:35.000Z",
+      "summary": "David Harbour denies revealing an Avengers: Doomsday spoiler"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "Cyberpunk: Edgerunners 2 review: \"Another nova Night City story\"",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-2-review/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/GLDL6S8X7iaNCPuiUj2ajP-1920-80.jpg"
+      ],
+      "date": "2026-10-19T07:01:00.000Z",
+      "summary": "Our spoiler-free review of Cyberpunk: Edgerunners 2 is here"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "\"The physical element of gaming will always be there\": Silent Hill 2 Remake CEO on physical media",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/horror/the-physical-element-of-gaming-will-always-always-be-there-bloober-team-and-broken-mirror-games-want-to-make-physical-media-for-as-long-as-possible/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/3pUNoqqVtcTwgSstgJWviK-1920-80.jpg"
+      ],
+      "date": "2026-10-18T17:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "Cyberpunk: Edgerunners creator says season 1 was a \"happy ending\" because it could have ended \"so much worse\" for David",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-creator-says-season-1-was-a-happy-ending-because-it-could-have-ended-so-much-worse-for-david/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/TSFeRCrV5ouhrxA8kz9YNk-1920-80.jpg"
+      ],
+      "date": "2026-10-18T15:00:00.000Z",
+      "summary": "Exclusive: Bartosz Sztybor has a sizzling hot take about his own work"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "A Resident Evil fan is remaking Zach Cregger's film as a PS1-style game with fixed camera angles",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/resident-evil/a-resident-evil-fan-is-remaking-zach-creggers-film-as-a-ps1-style-survival-horror-game-with-fixed-camera-angles/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/xEvgDANzQ6kynALq7ERxP6-1920-80.jpg"
+      ],
+      "date": "2026-10-18T14:43:50.000Z",
+      "summary": "The Movie The Game"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "Red Dead Redemption and Bully \"nearly didn't happen,\" Rockstar Games co-founder Dan Houser says",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/red-dead/red-dead-redemption-and-bully-nearly-didnt-happen-according-to-rockstar-games-co-founder-dan-houser/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/x4bm89EWNAoUEPFbJD3tAQ-1920-80.jpg"
+      ],
+      "date": "2026-10-18T14:10:30.000Z",
+      "summary": "\"And lots of other moments when games that didn"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "After Star Wars: Zero Company and Galactic Racer, Lucasfilm says it will \"continue to surprise\"",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/action/after-star-wars-zero-company-and-galactic-racer-lucasfilm-says-it-will-continue-to-surprise-folks-and-is-more-flexible-with-the-franchise/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/zPuFefpqX3gXxrnpnD75KT-1920-80.jpg"
+      ],
+      "date": "2026-10-18T13:32:50.000Z",
+      "summary": "\"You don"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "A Halo extraction shooter was reportedly scrapped during the development of Campaign Evolved",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/halo/a-halo-extraction-shooter-and-battle-royale-hybrid-game-was-reportedly-scrapped-during-the-development-of-campaign-evolved/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/aCfUoFdkJ9owhAj3Skiu7Y-1920-80.jpg"
+      ],
+      "date": "2026-10-18T13:09:22.000Z",
+      "summary": "Project Ekur sounds interesting, at the very least"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "How an indie spy game made turn-based tactics relentlessly exciting",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/stealth/how-an-indie-spy-game-made-turn-based-tactics-relentlessly-exciting/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/R634qR7rBWuG26wtNtb8UJ-1920-80.png"
+      ],
+      "date": "2026-10-18T13:00:00.000Z",
+      "summary": "Embracing the silly side of things worked perfectly"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "Ex-Dying Light lead wants to find \"the next Kojima\" in new role at Bloober Team publishing division",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/horror/ex-dying-light-lead-wants-to-find-the-next-kojima-in-new-role-at-bloober-team-publishing-division/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/6DiXVzLPcR6KKYGKZvFrrK-1920-80.jpg"
+      ],
+      "date": "2026-10-17T17:00:00.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "Castlevania: Belmont's Curse devs are \"proud\" of the game's hot characters",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/games/action/castlevania-belmonts-curse-devs-are-proud-of-the-games-hot-characters-there-should-be-a-game-awards-for-hot-dads/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/V9kivspRjp2p2CXFbXeo6-1920-80.jpg"
+      ],
+      "date": "2026-10-17T13:28:21.000Z"
+    },
+    {
+      "kind": "site",
+      "source": "GamesRadar",
+      "title": "Cyberpunk: Edgerunners director combed through Cyberpunk 2077 with a \"virtual camera\" to find the best Night City spots",
+      "score": 0,
+      "comments": 0,
+      "thread": "",
+      "link": "https://www.gamesradar.com/entertainment/anime-shows/cyberpunk-edgerunners-season-2-director-searched-cyberpunk-2077-with-a-virtual-camera-to-find-the-best-night-city-spots-to-use-in-the-anime/",
+      "flair": "",
+      "images": [
+        "https://cdn.mos.cms.futurecdn.net/Wqr2kKqswLnyEUsBg8mifb-1920-80.jpg"
+      ],
+      "date": "2026-10-17T13:00:00.000Z"
+    }
+  ]
+}
